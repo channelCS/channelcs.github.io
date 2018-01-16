@@ -104,11 +104,12 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
     <!-- Post Content -->
     <article>
-        <h1>Build our first Neural Network for Audio Processing</h1>
-<p>Prerequisites:
-<em> Up and Running with Keras
-</em> Implementing DNN using Keras</p>
-<p>[TOC]</p>
+        <p>Prerequisites:
+* Up and Running with Keras</p>
+<ul>
+<li>Implementing DNN using Keras</li>
+</ul>
+<p><strong>What is different in Audio?</strong></p>
 <p>A standard deep learning model passes the arrays of text or images directly to the Deep Neural Network or Convolution Neural Network and the rest is done by the model itself.</p>
 <p>As far as Audio is concerned, we first extract features which are then passed to the model for training.</p>
 <p>In this tutorial, you will discover how to develop a multichannel convolutional neural network for Acoustic Scene Classification the NAR dataset.</p>
@@ -180,20 +181,11 @@
 <td>Speech</td>
 <td>1,2,3,4,5,6,7,8,9,10, Hello, Left, Right, Turn, Move, Stop, Nao, Yes, No, What</td>
 </tr>
-<tr>
-<td>### 2.a. Making the config file</td>
-<td></td>
-</tr>
-<tr>
-<td>We are now making a config file for feature extraction in which we  place all the details about the dataset. We call it <strong><em>config.py</em></strong>.</td>
-<td></td>
-</tr>
-<tr>
-<td>There is no such rule of making a config fie as everything can be placed in a single place but that creates a lot of confusion when it comes to sharing codes between multiple developers.</td>
-<td></td>
-</tr>
 </tbody>
 </table>
+<h3>2.a. Making the config file</h3>
+<p>We are now making a config file for feature extraction in which we  place all the details about the dataset. We call it <strong><em>config.py</em></strong>.
+There is no such rule of making a config fie as everything can be placed in a single place but that creates a lot of confusion when it comes to sharing codes between multiple developers.</p>
 <div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
 <span class="k">def</span> <span class="nf">CreateFolder</span><span class="p">(</span> <span class="n">fd</span> <span class="p">):</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">fd</span><span class="p">):</span>
