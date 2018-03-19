@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>channelCS Blog - main</title><link href="/" rel="alternate"></link><link href="/feeds/main.atom.xml" rel="self"></link><id>/</id><updated>2018-01-15T17:33:00+05:30</updated><entry><title>Pelican is great</title><link href="/pelican-is-great.html" rel="alternate"></link><published>2018-01-15T17:33:00+05:30</published><updated>2018-01-15T17:33:00+05:30</updated><author><name>Akshita Gupta</name></author><id>tag:None,2018-01-15:/pelican-is-great.html</id><summary type="html">&lt;h1&gt;This is test page&lt;/h1&gt;
+&lt;p&gt;If you have author rights, kindly see this page.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;This is test page&lt;/h1&gt;
+&lt;p&gt;If you have author rights, kindly see this page.&lt;/p&gt;</content><category term="testingblog"></category></entry></feed>
