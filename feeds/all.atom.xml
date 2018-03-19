@@ -36,8 +36,10 @@ From there, I came to know about Normandy and thought it would be great to see t
 - Added the wrong files to the staging area
 - Commited
 - Not push&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What to do now?&lt;/strong&gt;
-- Reset to the last commit&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What to do now?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reset to the last commit&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git reset --soft HEAD~1
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -54,8 +56,10 @@ From there, I came to know about Normandy and thought it would be great to see t
 - Added the wrong files to the staging area
 - Commited
 - Not push&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What to do now?&lt;/strong&gt;
-- Reset to the last commit&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What to do now?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reset to the last commit&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git reset --soft HEAD~1
 &lt;/pre&gt;&lt;/div&gt;
 
