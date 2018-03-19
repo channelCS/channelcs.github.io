@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>channelCS Blog - Outreachy</title><link href="/" rel="alternate"></link><link href="/feeds/outreachy.atom.xml" rel="self"></link><id>/</id><updated>2018-03-19T00:00:00+05:30</updated><entry><title>Using FOSS Heartbeat for generating insights in Normandy</title><link href="/using-foss-heartbeat-for-generating-insights-in-normandy.html" rel="alternate"></link><published>2018-03-19T00:00:00+05:30</published><updated>2018-03-19T00:00:00+05:30</updated><author><name>Akshita Gupta</name></author><id>tag:None,2018-03-19:/using-foss-heartbeat-for-generating-insights-in-normandy.html</id><summary type="html">&lt;h2&gt;Task&lt;/h2&gt;
+&lt;p&gt;To analyse the FOSS Hearbeat tool and understand the health of the community. The tool uses CoreNLP algorithms and the GitHub API to
+gather information about the language and etiquette expressed in the PRs and the Issues of a repository.&lt;/p&gt;
+&lt;h2&gt;Why did I choose this repository?&lt;/h2&gt;
+&lt;p&gt;For this task …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Task&lt;/h2&gt;
+&lt;p&gt;To analyse the FOSS Hearbeat tool and understand the health of the community. The tool uses CoreNLP algorithms and the GitHub API to
+gather information about the language and etiquette expressed in the PRs and the Issues of a repository.&lt;/p&gt;
+&lt;h2&gt;Why did I choose this repository?&lt;/h2&gt;
+&lt;p&gt;For this task, I analysed the Mozilla's repository, &lt;a href="https://github.com/mozilla/normandy"&gt;Normandy&lt;/a&gt;. 
+As per issue &lt;a href="https://github.com/mozilla/diversity/issues/89"&gt;#89&lt;/a&gt; of Mozilla's &lt;a href="https://github.com/mozilla/diversity"&gt;Diversity&lt;/a&gt;, I have been working to be a part of it through the Outreachy program. We were told to see any of active Mozilla repos from this list:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/mozilla?utf8=%E2%9C%93&amp;amp;q=firefox&amp;amp;type=&amp;amp;language="&gt;Firefox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/mozilla?utf8=%E2%9C%93&amp;amp;q=rust&amp;amp;type=&amp;amp;language="&gt;Rust&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As most of my work revolves around python, I chose to go to the first link and find the repos that use python.
+From there, I came to know about Normandy and thought it would be great to see the insights about the health of this community.&lt;/p&gt;
+&lt;h2&gt;Some of the insights&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;People help each other&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Plot 1" src="https://i.imgur.com/89mqqAV.png"&gt;&lt;/p&gt;
+&lt;p&gt;It seems that people tend to help others as the comments made by a person on other's issue is huge.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Most issues are opened by newcomers&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Plot 2" src="https://i.imgur.com/77UFJoo.png"&gt;&lt;/p&gt;
+&lt;p&gt;This plot demonstrates that most issues are genrated by people who are new to the organisation. We can say that they seem to be more interested in knowing more about the project and give ideas for it as well.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Response to Pull Requests&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Plot 3" src="https://i.imgur.com/bI5wdDT.png"&gt;&lt;/p&gt;
+&lt;p&gt;This plot demonstrates how Normandy Maintainers respond quickly to the pull requests that are opened. The feedback is instant and very helpful!&lt;/p&gt;
+&lt;h2&gt;Inference&lt;/h2&gt;
+&lt;p&gt;The FOSS Heartbeat tool is mapsa various kinds of insights and gives a very encouraging statistics about the health of an oranisation.&lt;/p&gt;</content><category term="Outreachy"></category></entry></feed>

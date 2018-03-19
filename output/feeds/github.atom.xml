@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>channelCS Blog - Github</title><link href="/" rel="alternate"></link><link href="/feeds/github.atom.xml" rel="self"></link><id>/</id><updated>2018-03-19T00:00:00+05:30</updated><entry><title>Wrong files added in commit</title><link href="/wrong-files-added-in-commit.html" rel="alternate"></link><published>2018-03-19T00:00:00+05:30</published><updated>2018-03-19T00:00:00+05:30</updated><author><name>Aditya Arora</name></author><id>tag:None,2018-03-19:/wrong-files-added-in-commit.html</id><summary type="html">&lt;p&gt;So this is what you have done
+- Added the wrong files to the staging area
+- Commited
+- Not push&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What to do now?&lt;/strong&gt;
+- Reset to the last commit&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git reset --soft HEAD~1
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Remove folders that you dont want&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git reset node_modules/
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Check status to see the added files in the …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;So this is what you have done
+- Added the wrong files to the staging area
+- Commited
+- Not push&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What to do now?&lt;/strong&gt;
+- Reset to the last commit&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git reset --soft HEAD~1
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Remove folders that you dont want&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git reset node_modules/
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Check status to see the added files in the staging area&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git status
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Make new commits&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git commit -m &amp;quot;Cleaning styles.css&amp;quot;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Push the commits&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git push -u origin master
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Errors"></category></entry></feed>
