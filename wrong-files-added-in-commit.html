@@ -2,16 +2,16 @@
 <html lang="en">
 
 <head>
-        <meta charset="utf-8">
+            <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>channelCS Blog - Articles in the Outreachy category</title>
+        <title>channelCS Blog</title>
 
             <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="channelCS Blog Full Atom Feed" />
-            <link href="/feeds/outreachy.atom.xml" type="application/atom+xml" rel="alternate" title="channelCS Blog Categories Atom Feed" />
+            <link href="/feeds/github.atom.xml" type="application/atom+xml" rel="alternate" title="channelCS Blog Categories Atom Feed" />
 
         <!-- Bootstrap Core CSS -->
         <link href="/theme/css/bootstrap.min.css" rel="stylesheet">
@@ -34,8 +34,22 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-		<meta property="og:locale" content="en">
+
+
+
+        <meta name="tags" contents="Errors" />
+
+
+			<meta property="og:locale" content="en">
 		<meta property="og:site_name" content="channelCS Blog">
+
+	<meta property="og:type" content="article">
+	<meta property="article:author" content="">
+	<meta property="og:url" content="/wrong-files-added-in-commit.html">
+	<meta property="og:title" content="Wrong files added in commit">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="/">
+	<meta property="article:published_time" content="2018-03-19 00:00:00+05:30">
 </head>
 
 <body>
@@ -66,12 +80,17 @@
     </nav>
 
     <!-- Page Header -->
-        <header class="intro-header" style="background-image: url('/theme/images/home-bg.jpg')">
+        <header class="intro-header" style="background-image: url('/theme/images/post-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
-                        <h1>Articles in the Outreachy category</h1>
+                        <h1>Wrong files added in commit</h1>
+                        <span class="meta">Posted by
+                                <a href="/author/aditya-arora.html">Aditya Arora</a>
+                             on Mon 19 March 2018
+                        </span>
+                        
                     </div>
                 </div>
             </div>
@@ -82,28 +101,39 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="post-preview">
-            <a href="/using-foss-heartbeat-for-generating-insights-in-normandy.html" rel="bookmark" title="Permalink to Using FOSS Heartbeat for generating insights in Normandy">
-                <h2 class="post-title">
-                    Using FOSS Heartbeat for generating insights in Normandy
-                </h2>
-            </a>
-                <h2>Task</h2>
-<p>To analyse the FOSS Hearbeat tool and understand the health of the community. The tool uses CoreNLP algorithms and the...
-            <p class="post-meta">Posted by
-                    <a href="/author/akshita-gupta.html">Akshita Gupta</a>
-                 on Mon 19 March 2018
-            </p>
-        </div>
-        <hr>
+    <!-- Post Content -->
+    <article>
+        <p>So this is what you have done
+- Added the wrong files to the staging area
+- Commited
+- Not push</p>
+<p><strong>What to do now?</strong>
+1. Reset to the last commit</p>
+<div class="highlight"><pre><span></span>    git reset --soft HEAD~1
+</pre></div>
 
-    <!-- Pager -->
-    <ul class="pager">
-        <li class="next">
-        </li>
-    </ul>
-    Page 1 / 1
+
+<ol>
+<li>Remove folders that you dont want<div class="highlight"><pre><span></span>git reset node_modules/
+</pre></div>
+
+
+<ol>
+<li>
+<p>Check status to see the added files in the staging area</p>
+<p>git status
+4. Make new commits</p>
+<p>git commit -m "Cleaning styles.css"
+5. Push the commits</p>
+<p>git push -u origin master</p>
+</li>
+</ol>
+</li>
+</ol>
+    </article>
+
     <hr>
+
             </div>
         </div>
     </div>
