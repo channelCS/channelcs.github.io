@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>channelCS Blog - Deep Learning</title><link href="/" rel="alternate"></link><link href="/feeds/deep-learning.atom.xml" rel="self"></link><id>/</id><updated>2018-03-22T00:00:00+05:30</updated><entry><title>Changing Keras Version</title><link href="/changing-keras-version.html" rel="alternate"></link><published>2018-03-22T00:00:00+05:30</published><updated>2018-03-22T00:00:00+05:30</updated><author><name>Aditya Arora</name></author><id>tag:None,2018-03-22:/changing-keras-version.html</id><summary type="html">&lt;p&gt;Sometimes, we get errors which when looked up as &lt;strong&gt;Github issues&lt;/strong&gt; dont give us a solid answer. It is told to change &lt;strong&gt;Theano&lt;/strong&gt; versions to using &lt;strong&gt;CPU&lt;/strong&gt;. A simple trick is to downgrade your keras version from &lt;code&gt;2.1.x&lt;/code&gt; to &lt;code&gt;2.0.y&lt;/code&gt; where &lt;code&gt;y&amp;lt;=5&lt;/code&gt;.
+For this we …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Sometimes, we get errors which when looked up as &lt;strong&gt;Github issues&lt;/strong&gt; dont give us a solid answer. It is told to change &lt;strong&gt;Theano&lt;/strong&gt; versions to using &lt;strong&gt;CPU&lt;/strong&gt;. A simple trick is to downgrade your keras version from &lt;code&gt;2.1.x&lt;/code&gt; to &lt;code&gt;2.0.y&lt;/code&gt; where &lt;code&gt;y&amp;lt;=5&lt;/code&gt;.
+For this we have to check which version we currently have. Also note that the previous versions are not available in &lt;code&gt;conda&lt;/code&gt;. This means we have to use &lt;code&gt;pip&lt;/code&gt;for installations. Also, we dont want to change any other dependencies as they are working well.
+- Check keras version&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ conda list keras
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Output&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;# packages in environment at C:\Anaconda2:
+#
+keras                     2.1.5                    py27_0    conda-forge
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;We have &lt;code&gt;Keras 2.1.5&lt;/code&gt; and wwant to switch to &lt;code&gt;Keras 2.0.5&lt;/code&gt; without altering any dependencies. We remove keras with &lt;code&gt;--force&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ conda remove keras --force
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;We now install keras with no dependencies using &lt;code&gt;--no-deps&lt;/code&gt; flag.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ pip install &lt;span class="nv"&gt;keras&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;.0.5 --no-deps
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Output&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Collecting keras==2.0.5
+  Downloading Keras-2.0.5.tar.gz (216kB)
+    100% |################################| 225kB 639kB/s
+Building wheels for collected packages: keras
+  Running setup.py bdist_wheel for keras ... done
+  Stored in directory: C:\Users\dell\AppData\Local\pip\Cache\wheels\f9\8d\c5\efc2eeea676156ca5bed9
+cfbdb63098c40336d7d2b269be5ea
+Successfully built keras
+Installing collected packages: keras
+Successfully installed keras-2.0.5
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Keras"></category><category term="Theano"></category><category term="Errors"></category></entry></feed>
