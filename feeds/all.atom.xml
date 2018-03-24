@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>channelCS Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2018-03-22T00:00:00+05:30</updated><entry><title>Changing Keras Version</title><link href="/changing-keras-version.html" rel="alternate"></link><published>2018-03-22T00:00:00+05:30</published><updated>2018-03-22T00:00:00+05:30</updated><author><name>Aditya Arora</name></author><id>tag:None,2018-03-22:/changing-keras-version.html</id><summary type="html">&lt;p&gt;Sometimes, we get errors which when looked up as &lt;strong&gt;Github issues&lt;/strong&gt; dont give us a solid answer. It is told to change &lt;strong&gt;Theano&lt;/strong&gt; versions to using &lt;strong&gt;CPU&lt;/strong&gt;. A simple trick is to downgrade your keras version from &lt;code&gt;2.1.x&lt;/code&gt; to &lt;code&gt;2.0.y&lt;/code&gt; where &lt;code&gt;y&amp;lt;=5&lt;/code&gt;.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>channelCS Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2018-03-24T00:00:00+05:30</updated><entry><title>Gender Identity</title><link href="/gender-identity.html" rel="alternate"></link><published>2018-03-24T00:00:00+05:30</published><updated>2018-03-24T00:00:00+05:30</updated><author><name>Akshita Gupta</name></author><id>tag:None,2018-03-24:/gender-identity.html</id><summary type="html">&lt;p&gt;Gender identity and  expression  is  a  positive,  core  part,  of  being  human  and  experiencing  wellbeing  and  fulfilment. &lt;/p&gt;
+&lt;h2&gt;What exactly is Gender Identity&lt;/h2&gt;
+&lt;p&gt;As per Wikipedia&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Gender identity is one's personal experience of one's own gender.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It can be the sex at birth or can differ as well. The social identity …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Gender identity and  expression  is  a  positive,  core  part,  of  being  human  and  experiencing  wellbeing  and  fulfilment. &lt;/p&gt;
+&lt;h2&gt;What exactly is Gender Identity&lt;/h2&gt;
+&lt;p&gt;As per Wikipedia&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Gender identity is one's personal experience of one's own gender.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It can be the sex at birth or can differ as well. The social identity of a person in relation to other members of society is severd by their &lt;strong&gt;set of gender categories&lt;/strong&gt;. Most societies have a &lt;em&gt;gender binary&lt;/em&gt; which is a basic division between gender attributes assigned to &lt;strong&gt;males&lt;/strong&gt; and &lt;strong&gt;females&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In all societies, some individuals do not identify with some (or all) of the aspects of gender that are assigned to their biological sex; some of those individuals are &lt;strong&gt;transgender&lt;/strong&gt;, &lt;strong&gt;genderqueer&lt;/strong&gt; or &lt;strong&gt;non-binary&lt;/strong&gt;. There are some societies that have &lt;strong&gt;third gender&lt;/strong&gt; categories.&lt;/p&gt;
+&lt;h2&gt;Role of age in Gender Identity&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;This gives an insight for issue &lt;a href="https://github.com/mozilla/diversity/issues/96"&gt;#96&lt;/a&gt; in Mozilla/Diversity.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Core gender identity is usually formed by age three, although children do not yet fully understand the implications of gender. &lt;/p&gt;
+&lt;p&gt;Trans people who express their gender identity from an early age are often rejected by their families. If not cast out from their homes, they are shunned within households resulting in lack of opportunities for education and with no attempts to ensure attention to their mental and physical health needs. &lt;/p&gt;
+&lt;p&gt;In universities, atudents aged under 18 are covered by special policies because they are in a distinct legal position because of their age and should obtain the assistance of a Student Adviser when, for example, seeking to change their student records.&lt;/p&gt;
+&lt;h3&gt;Gender Recognition Laws&lt;/h3&gt;
+&lt;p&gt;In certain countries, like Ireland, a certificate is issued under the Gender Recognition Act which enables trans people’s binary gender to be legally recognised from age &lt;strong&gt;sixteen&lt;/strong&gt;.
+United Nations state that A person over the age of 18 years should be able to choose to have an unspecified sex noted on documents and records.  &lt;/p&gt;
+&lt;h3&gt;Gender Reassignment Therapy&lt;/h3&gt;
+&lt;p&gt;Another aspect in  discussing about gender identity is access to gender  reassignment therapy.Trans persons may elect to undergo gender reassignment surgery, which is usually available after a person has reached 18 years of age. However, in some countries, like the Netherlands, transgender youth may begin treatment to offset puberty and 
+receive counselling, so as to allow them to make informed decisions about their future gender identity. Then at the age of 18 they can proceed with gender reassignment treatments, if they still wish to. Recently, some other countries, for example Belgium and Germany, have started 
+to provide similar treatment for youth under &lt;strong&gt;18&lt;/strong&gt;. &lt;/p&gt;
+&lt;h3&gt;Teens understanding their gender&lt;/h3&gt;
+&lt;p&gt;One’s gender identity is their innermost concept of self as male, female, both, or neither. It also means that one’s gender identity can be the same or different than their sex assigned at birth. If &lt;strong&gt;a teen's&lt;/strong&gt; gender identity is different from their sex, they may be looking for &lt;strong&gt;support&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Telling a friend or an adult about their gender identity can be a very emotional journey.  While there are support groups, some feel safer to be themselves and explore issues online rather than sitting across the table from someone. Online communities are vailable for people between the age of &lt;strong&gt;13 and 19&lt;/strong&gt; which they can join to connect with other Gender-expansive youth and their allies.&lt;/p&gt;
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;To conclude, I would say that the age of 19 seems to be good for asking gender identity for people.&lt;/p&gt;
+&lt;h2&gt;Sources:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Gender_identity"&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4949312"&gt;NIH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.ucd.ie/t4cms/Gender%20Identity%20Policy%20Final%20June%2017.pdf"&gt;UCD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ijrcenter.org/thematic-research-guides/sexual-orientation-gender-identity/#gsc.tab=0"&gt;IJRCENTER&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://rm.coe.int/16806da753"&gt;COE&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.genderspectrum.org/explore-topics/teens/"&gt;GenderSpectrum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://unstats.un.org/unsd/class/intercop/expertgroup/2015/AC289-Bk2.PDF"&gt;UN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Mozilla"></category><category term="Genders"></category></entry><entry><title>Changing Keras Version</title><link href="/changing-keras-version.html" rel="alternate"></link><published>2018-03-22T00:00:00+05:30</published><updated>2018-03-22T00:00:00+05:30</updated><author><name>Aditya Arora</name></author><id>tag:None,2018-03-22:/changing-keras-version.html</id><summary type="html">&lt;p&gt;Sometimes, we get errors which when looked up as &lt;strong&gt;Github issues&lt;/strong&gt; dont give us a solid answer. It is told to change &lt;strong&gt;Theano&lt;/strong&gt; versions to using &lt;strong&gt;CPU&lt;/strong&gt;. A simple trick is to downgrade your keras version from &lt;code&gt;2.1.x&lt;/code&gt; to &lt;code&gt;2.0.y&lt;/code&gt; where &lt;code&gt;y&amp;lt;=5&lt;/code&gt;.
 For this we …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Sometimes, we get errors which when looked up as &lt;strong&gt;Github issues&lt;/strong&gt; dont give us a solid answer. It is told to change &lt;strong&gt;Theano&lt;/strong&gt; versions to using &lt;strong&gt;CPU&lt;/strong&gt;. A simple trick is to downgrade your keras version from &lt;code&gt;2.1.x&lt;/code&gt; to &lt;code&gt;2.0.y&lt;/code&gt; where &lt;code&gt;y&amp;lt;=5&lt;/code&gt;.
 For this we have to check which version we currently have. Also note that the previous versions are not available in &lt;code&gt;conda&lt;/code&gt;. This means we have to use &lt;code&gt;pip&lt;/code&gt;for installations. Also, we dont want to change any other dependencies as they are working well.
 - Check keras version&lt;/p&gt;
