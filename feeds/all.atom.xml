@@ -1,35 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>channelCS Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2018-03-24T00:00:00+05:30</updated><entry><title>Gender Identity</title><link href="/gender-identity.html" rel="alternate"></link><published>2018-03-24T00:00:00+05:30</published><updated>2018-03-24T00:00:00+05:30</updated><author><name>Akshita Gupta</name></author><id>tag:None,2018-03-24:/gender-identity.html</id><summary type="html">&lt;p&gt;Gender identity and  expression  is  a  positive,  core  part,  of  being  human  and  experiencing  wellbeing  and  fulfilment. &lt;/p&gt;
-&lt;h2&gt;What exactly is Gender Identity&lt;/h2&gt;
-&lt;p&gt;As per Wikipedia&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>channelCS Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2018-03-24T00:00:00+05:30</updated><entry><title>Gender Identity</title><link href="/gender-identity.html" rel="alternate"></link><published>2018-03-24T00:00:00+05:30</published><updated>2018-03-24T00:00:00+05:30</updated><author><name>Akshita Gupta</name></author><id>tag:None,2018-03-24:/gender-identity.html</id><summary type="html">&lt;p&gt;Gender identity and expression is a positive, core part, of being human and experiencing wellbeing and fulfilment. We shall be discussing about the various aspects that needs to be taken care in order to design community guidelines.&lt;/p&gt;
+&lt;h2&gt;What exactly is Gender identity&lt;a name='what-exactly-is-gender-identity'&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Gender identity is one's personal experience of one's own gender.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It can be the sex at birth or can differ as well. The social identity …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Gender identity and  expression  is  a  positive,  core  part,  of  being  human  and  experiencing  wellbeing  and  fulfilment. &lt;/p&gt;
-&lt;h2&gt;What exactly is Gender Identity&lt;/h2&gt;
-&lt;p&gt;As per Wikipedia&lt;/p&gt;
+&lt;p&gt;Gender identity is one's personal experience of one's …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;Gender identity and expression is a positive, core part, of being human and experiencing wellbeing and fulfilment. We shall be discussing about the various aspects that needs to be taken care in order to design community guidelines.&lt;/p&gt;
+&lt;h2&gt;What exactly is Gender identity&lt;a name='what-exactly-is-gender-identity'&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Gender identity is one's personal experience of one's own gender.&lt;/p&gt;
+&lt;p&gt;Gender identity is one's personal experience of one's own gender.
+&lt;div style="text-align: right"&gt;- Wikipedia&lt;/div&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;It can be the sex at birth or can differ as well. The social identity of a person in relation to other members of society is severd by their &lt;strong&gt;set of gender categories&lt;/strong&gt;. Most societies have a &lt;em&gt;gender binary&lt;/em&gt; which is a basic division between gender attributes assigned to &lt;strong&gt;males&lt;/strong&gt; and &lt;strong&gt;females&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Gender identity can be the sex at birth or can differ as well. The social identity of a person, in relation to other members of society is served by their &lt;strong&gt;set of gender categories&lt;/strong&gt;. Most societies have a &lt;em&gt;gender binary&lt;/em&gt; which is a basic division between gender attributes assigned to &lt;strong&gt;males&lt;/strong&gt; and &lt;strong&gt;females&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;In all societies, some individuals do not identify with some (or all) of the aspects of gender that are assigned to their biological sex; some of those individuals are &lt;strong&gt;transgender&lt;/strong&gt;, &lt;strong&gt;genderqueer&lt;/strong&gt; or &lt;strong&gt;non-binary&lt;/strong&gt;. There are some societies that have &lt;strong&gt;third gender&lt;/strong&gt; categories.&lt;/p&gt;
-&lt;h2&gt;Role of age in Gender Identity&lt;/h2&gt;
+&lt;h2&gt;Role of age in Gender Identity&lt;a name='role-of-age-in-Gender-Identity'&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;This gives an insight for issue &lt;a href="https://github.com/mozilla/diversity/issues/96"&gt;#96&lt;/a&gt; in Mozilla/Diversity.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Core gender identity is usually formed by age three, although children do not yet fully understand the implications of gender. &lt;/p&gt;
 &lt;p&gt;Trans people who express their gender identity from an early age are often rejected by their families. If not cast out from their homes, they are shunned within households resulting in lack of opportunities for education and with no attempts to ensure attention to their mental and physical health needs. &lt;/p&gt;
-&lt;p&gt;In universities, atudents aged under 18 are covered by special policies because they are in a distinct legal position because of their age and should obtain the assistance of a Student Adviser when, for example, seeking to change their student records.&lt;/p&gt;
+&lt;p&gt;In universities, students aged under 18 are covered by special policies because they are in a distinct legal position because of their age and should obtain the assistance of a Student Adviser when, for example, seeking to change their student records.&lt;/p&gt;
 &lt;h3&gt;Gender Recognition Laws&lt;/h3&gt;
-&lt;p&gt;In certain countries, like Ireland, a certificate is issued under the Gender Recognition Act which enables trans people’s binary gender to be legally recognised from age &lt;strong&gt;sixteen&lt;/strong&gt;.
-United Nations state that A person over the age of 18 years should be able to choose to have an unspecified sex noted on documents and records.  &lt;/p&gt;
+&lt;p&gt;In certain countries, like Ireland, a certificate is issued under the Gender Recognition Act which enables trans people’s binary gender to be legally recognised from age &lt;strong&gt;sixteen&lt;/strong&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A person over the age of 18 years should be able to choose to have an unspecified sex noted on documents and records. 
+&lt;div style="text-align: right"&gt;- United Nations&lt;/div&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3&gt;Gender Reassignment Therapy&lt;/h3&gt;
-&lt;p&gt;Another aspect in  discussing about gender identity is access to gender  reassignment therapy.Trans persons may elect to undergo gender reassignment surgery, which is usually available after a person has reached 18 years of age. However, in some countries, like the Netherlands, transgender youth may begin treatment to offset puberty and 
+&lt;p&gt;Another aspect in discussing about gender identity is access to gender reassignment therapy.Trans persons may elect to undergo gender reassignment surgery, which is usually available after a person has reached 18 years of age. However, in some countries, like the Netherlands, transgender youth may begin treatment to offset puberty and 
 receive counselling, so as to allow them to make informed decisions about their future gender identity. Then at the age of 18 they can proceed with gender reassignment treatments, if they still wish to. Recently, some other countries, for example Belgium and Germany, have started 
 to provide similar treatment for youth under &lt;strong&gt;18&lt;/strong&gt;. &lt;/p&gt;
 &lt;h3&gt;Teens understanding their gender&lt;/h3&gt;
 &lt;p&gt;One’s gender identity is their innermost concept of self as male, female, both, or neither. It also means that one’s gender identity can be the same or different than their sex assigned at birth. If &lt;strong&gt;a teen's&lt;/strong&gt; gender identity is different from their sex, they may be looking for &lt;strong&gt;support&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Telling a friend or an adult about their gender identity can be a very emotional journey.  While there are support groups, some feel safer to be themselves and explore issues online rather than sitting across the table from someone. Online communities are vailable for people between the age of &lt;strong&gt;13 and 19&lt;/strong&gt; which they can join to connect with other Gender-expansive youth and their allies.&lt;/p&gt;
+&lt;p&gt;Telling a friend or an adult about their gender identity can be a very emotional journey. While there are support groups, some feel safer to be themselves and explore issues online rather than sitting across the table from someone. Online communities are vailable for people between the age of &lt;strong&gt;13 and 19&lt;/strong&gt; which they can join to connect with other Gender-expansive youth and their allies.&lt;/p&gt;
 &lt;h3&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;To conclude, I would say that the age of 19 seems to be good for asking gender identity for people.&lt;/p&gt;
+&lt;p&gt;To conclude, I would say that the age of 19 seems to be good for asking gender identity from people.&lt;/p&gt;
+&lt;h2&gt;Designing forms for gender identity&lt;a name='designing-forms-for-gender-identity'&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;This gives an insight for issue &lt;a href="https://github.com/mozilla/diversity/issues/95"&gt;#95&lt;/a&gt; in Mozilla/Diversity.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We discuss about some best practices to inculcate the most appropriate options when it comes to gender identity based on people’s common attitudes. Having a binary question is simple form &lt;strong&gt;cisgender&lt;/strong&gt; people. But what about people who don't consider themselves in one of those category. It may be a hurtful reminder of how their journey is not reflected in the world.&lt;/p&gt;
+&lt;p&gt;Trans &amp;amp; GNC people may have identified with several different gender labels as they discovered them. They may also think about pronouns they want other people to use while referring to them.
+This may not be a journey to a destination, but a path. They are the ones shaping the path, creating, adopting and combining labels to feel comfort while they explore their feelings, and discarding old ones. The meaning they give to these labels can also vary.&lt;/p&gt;
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;Employers committed to diversity and inclusion should give these options: male, female, lesbian, gay, bisexual, transgender. Some thoughts to consider are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Avoid using &lt;strong&gt;only&lt;/strong&gt; binary options for Gender Identity.&lt;/li&gt;
+&lt;li&gt;An individual should be allowed to select &lt;em&gt;multiple&lt;/em&gt; options.&lt;/li&gt;
+&lt;li&gt;It should be &lt;strong&gt;clearly stated&lt;/strong&gt; whether they change the selected options later. &lt;/li&gt;
+&lt;li&gt;Apart from the choices, having a &lt;em&gt;optional&lt;/em&gt; description for Gender Identity is a good practice.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Prefer not to say&lt;/em&gt; is always good to have.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2&gt;Sources:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Gender_identity"&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
