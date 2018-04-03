@@ -1,5 +1,220 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>channelCS Blog - Outreachy</title><link href="/" rel="alternate"></link><link href="/feeds/outreachy.atom.xml" rel="self"></link><id>/</id><updated>2018-03-24T00:00:00+05:30</updated><entry><title>Gender Identity</title><link href="/gender-identity.html" rel="alternate"></link><published>2018-03-24T00:00:00+05:30</published><updated>2018-03-24T00:00:00+05:30</updated><author><name>Akshita Gupta</name></author><id>tag:None,2018-03-24:/gender-identity.html</id><summary type="html">&lt;p&gt;Gender identity and expression is a positive, core part, of being human and experiencing wellbeing and fulfilment. We shall be discussing about the various aspects that needs to be taken care in order to design community guidelines.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>channelCS Blog - Outreachy</title><link href="/" rel="alternate"></link><link href="/feeds/outreachy.atom.xml" rel="self"></link><id>/</id><updated>2018-04-03T00:00:00+05:30</updated><entry><title>Best practices in a collaborative environment</title><link href="/best-practices-in-a-collaborative-environment.html" rel="alternate"></link><published>2018-04-03T00:00:00+05:30</published><updated>2018-04-03T00:00:00+05:30</updated><author><name>Akshita Gupta</name></author><id>tag:None,2018-04-03:/best-practices-in-a-collaborative-environment.html</id><summary type="html">&lt;p&gt;This blog post is made possible due to amazing mentors                                                                                                                                                                          &lt;a href="https://github.com/djmitche"&gt;Dustin&lt;/a&gt;, &lt;a href="https://github.com/eliperelman"&gt;Eli&lt;/a&gt;, &lt;a href="https://github.com/helfi92"&gt;Hassan&lt;/a&gt; and, &lt;a href="https://github.com/emmairwin"&gt;Emma&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a place for all newcomers to Open Source to get an idea for getting started with version control systems and contributing to Open Source projects. It is totally different in maintaining your own …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This blog post is made possible due to amazing mentors                                                                                                                                                                          &lt;a href="https://github.com/djmitche"&gt;Dustin&lt;/a&gt;, &lt;a href="https://github.com/eliperelman"&gt;Eli&lt;/a&gt;, &lt;a href="https://github.com/helfi92"&gt;Hassan&lt;/a&gt; and, &lt;a href="https://github.com/emmairwin"&gt;Emma&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a place for all newcomers to Open Source to get an idea for getting started with version control systems and contributing to Open Source projects. It is totally different in maintaining your own projects as compared to working with multiple people in order to create a single great product.&lt;/p&gt;
+&lt;p&gt;As an Outreachy aspirant, I have been working for the past two months, solving multiple issues in Mozilla's &lt;a href="https://github.com/taskcluster/taskcluster-tools"&gt;Taskcluster&lt;/a&gt; and &lt;a href="https://github.com/mozilla/diversity"&gt;Diversity&lt;/a&gt; projects.
+They have awesome mentors who have been really helpful in making me understand my mistakes. I want to share these practices with everyone in order to skip those mistakes.&lt;/p&gt;
+&lt;h2&gt;1. Welcome to Open Source&lt;/h2&gt;
+&lt;p&gt;If you are a newcomer, I want to welcome you to this &lt;em&gt;one-of-a-kind&lt;/em&gt; great place called as OpenSource . It is a place to showcase your work and at the same time help others to make awesome projects. Remember, &lt;strong&gt;Every organisation is different.&lt;/strong&gt; They have their own set of standards and rules to follow. In this blog post, however, I would like to give you a general introduction and practices which covers most of the organisations. &lt;/p&gt;
+&lt;h3&gt;1.1 Getting Started&lt;/h3&gt;
+&lt;p&gt;Firstly, go through the organisations' Github pages and look through the repositories. Find out those which interests you. Once you have selected a repo&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Go through the &lt;strong&gt;README&lt;/strong&gt; and understand the working of the project.&lt;/li&gt;
+&lt;li&gt;Follow the instructions in the README and set up the project on your local machine.&lt;/li&gt;
+&lt;li&gt;Explore the project's codebase. If you find any error or bug, generate an &lt;strong&gt;Issue&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;If you are unable to find anything, somebody else might have. Go to the &lt;strong&gt;Issues&lt;/strong&gt; tab of the project to find some issues being worked upon.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Don't know coding and still want to contribute?&lt;/strong&gt; Don't be disheartened. Let's get our facts correct- &lt;em&gt;A human being cannot learn every programming language.&lt;/em&gt; You might be good at writing. There are various projects that need an incredible writer like you. You can always look for the &lt;em&gt;Documentation&lt;/em&gt; tag in an Issue or generate a new one in case you find a repo that needs documentation. You can also learn while contributing. I believe, the logic of all the programming languages is similar. The major difference lies in the syntax. If you know how the project works, the syntax should not be an obstacle in your path.&lt;/p&gt;
+&lt;h3&gt;1.2 Forking the repo&lt;/h3&gt;
+&lt;p&gt;You cannot make changes directly to the organisation's repo. For that, you need to make a copy into your own profile. Click on the 
+&lt;!-- Place this tag where you want the button to render. --&gt;
+&lt;button&gt;&lt;svg viewBox="0 0 10 16" height="16"&gt;&lt;path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"&gt;&lt;/path&gt;&lt;/svg&gt; Fork&lt;/button&gt; button to get your own copy of the repository. &lt;/p&gt;
+&lt;h3&gt;1.3 Cloning the repo&lt;/h3&gt;
+&lt;p&gt;You can now clone the repo in a local system to make the changes. Type&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git clone https://github.com/&amp;lt;your-username&amp;gt;/&amp;lt;repo-name&amp;gt;.git
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;in bash to get the repository on your computer.&lt;/p&gt;
+&lt;h2&gt;2. Working on issues&lt;/h2&gt;
+&lt;p&gt;You might have found a bug or want to work on an Issue that interests you. If you found a bug, go through the &lt;button&gt;&lt;svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"&gt;&lt;path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"&gt;&lt;/path&gt;&lt;/svg&gt; Issue&lt;/button&gt; tab to see if an issue is already generated or not. If not, you may generate a new issue.&lt;/p&gt;
+&lt;h3&gt;2.1 Asking to get assigned&lt;/h3&gt;
+&lt;p&gt;Make sure you ask for permission from the mentors before working on an issue as there might be other people who could already be working on that issue. A simple message such as&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Hey, I want to work on this issue. Is it already assigned?
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;will do the work. &lt;/p&gt;
+&lt;h3&gt;2.2 Wait for the response&lt;/h3&gt;
+&lt;p&gt;You have to understand that people live in various parts of the world and have different timelines. They might be having a holiday which might be a working day in your country. Also, they might be working on multiple projects. You must take care of all the factors and should not keep messaging in order to get a reply. &lt;/p&gt;
+&lt;h3&gt;2.3 Make your changes&lt;/h3&gt;
+&lt;p&gt;Once you get the approval from a mentor, go ahead and make the changes as per the issue. &lt;strong&gt;Don't make any unnecessary changes.&lt;/strong&gt; Examples are
+- Introducing new lines.
+- Removing and adding spaces.
+- Changes other than the assigned issue.
+- Changing the workflow of the project.&lt;/p&gt;
+&lt;p&gt;These should be evaluated first before making a commit.&lt;/p&gt;
+&lt;h2&gt;3. Getting Stuck&lt;/h2&gt;
+&lt;p&gt;As a newcomer, it is obvious that you might get stuck at a place where you might not understand what is going wrong. &lt;strong&gt;Don't panic&lt;/strong&gt; .Others might have also faced similar issues.&lt;/p&gt;
+&lt;h3&gt;3.1 Checking versions&lt;/h3&gt;
+&lt;p&gt;If these are the cases, follow the README in the repo to correct your mistakes. Make sure you are on the right version as that told in the repository.
+- There might be certain dependencies which only work on a specific Operating System.
+- Certain functions could be deprecated or renamed in newer versions of a library.
+- The programming language might follow newer syntax rules as compared to previous versions.&lt;/p&gt;
+&lt;h3&gt;3.2 Searching for a solution&lt;/h3&gt;
+&lt;p&gt;Others who got the same problem could have asked on the web for a solution. In most cases, you might get the remedy on &lt;em&gt;StackOverflow&lt;/em&gt;. A good practice is to try to solve the problem and if you are unable to, copy the exact error in &lt;em&gt;Google&lt;/em&gt; and look for the solutions.&lt;/p&gt;
+&lt;h3&gt;3.3 Asking the mentors&lt;/h3&gt;
+&lt;p&gt;This should be the last resort and make sure you do this only after you have followed the above two steps and done an extensive research but are still unable to get a remedy for your problem. Generate a message containing
+- The problem you are facing.
+- What solutions you have tried.
+- Links to solutions you have tried.
+- Relevant screenshots.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Value their time.&lt;/strong&gt; Don't ask irrelevant questions as they are giving you, their time by answering your query. It can be a bit annoying for the reviewers if you ask unnecessary questions which might already be on Google.&lt;/p&gt;
+&lt;h2&gt;4. Pull requests&lt;/h2&gt;
+&lt;p&gt;When creating a Pull Request (&lt;em&gt;also called a PR&lt;/em&gt;), there are certain practices which give better results.&lt;/p&gt;
+&lt;h3&gt;4.1 Add your files&lt;/h3&gt;
+&lt;p&gt;If you are working on a single issue, you can use&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git add .
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;However, this is not suggested for multiple issues and you should only add the desired files for which changes were &lt;em&gt;required&lt;/em&gt; using&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git add filename.py
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;4.2 Squashing your commits&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;One PR needs one commit&lt;/strong&gt;. Squash all your commits into a single commit.&lt;/p&gt;
+&lt;p&gt;Remember, Branching is the key to avoid all the commit problems.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git checkout &amp;lt;branch name&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Merging 5 commits to a single commit.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git rebase -i &amp;lt;branch name&amp;gt;~5 &amp;lt;branch name&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;At the Interactive screen, choose fixup for commit 2 / 3 / 4 / 5.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git push -u origin &amp;lt;branch name&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Commit Related issues?&lt;/strong&gt; If you have any issues regarding commits, go ahead and see this &lt;a href="https://channelcs.github.io/wrong-files-added-in-commit.html"&gt;post&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;4.3 Generating a Pull Request&lt;/h3&gt;
+&lt;p&gt;Separate PRs should be generated for different issues. If not, they get mixed and create a ruckus when everything is done on the master branch.
+In order to create better PRs, it is recommended that you should create PRs on a branch which could be named as &lt;code&gt;solves-issue-21&lt;/code&gt;. This not only helps in working on multiple issues simultaneously but also makes the collaborator at the other end, understand what the PR does.&lt;/p&gt;
+&lt;h3&gt;4.4 Creating a new branch&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Add a new branch for pushing our changes to an issue.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git checkout -b &amp;lt;branch-name&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If required, rebase your branch even to master by following the rebase &lt;a href="#rebase"&gt;steps&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Push the changes to your repo.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git push origin &amp;lt;branch-name&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;5.Rebasing your repository&lt;/h2&gt;
+&lt;h3&gt;5.1 What is a Rebase?&lt;/h3&gt;
+&lt;p&gt;Rebasing is changing the base of your branch from one commit to another making it appear as if you'd created your branch from a different commit. &lt;/p&gt;
+&lt;h3&gt;5.2 Why is it needed?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The forked repository is few commits behind.&lt;/li&gt;
+&lt;li&gt;Newly created branch is not even with the master branch.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;5.3 How to rebase?&lt;a name='rebase'&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Check current configured forked repository&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git remote -v
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Set new remote repository that will be synced&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git remote add upstream &amp;lt;original-github-repo-link&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Check new upstream repository&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git remote -v
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fetch the original Github repository&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git fetch upstream
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Rebase the commits&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git rebase -i upstream/master
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Push the changes &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git push -f
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Rebase commits against a specific branch and then proceed with Step 6&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git rebase -i &amp;lt;branch-name&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Rebase commits against a specific node and then proceed with Step 6&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git rebase -i HEAD~&amp;lt;commit-number&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;6. List of open-source competitions and Internships.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wiki.mozilla.org/Security/Automation/Winter_Of_Security_2016"&gt;Mozilla Winter of Security&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.gnome.org/outreachy/"&gt;Outreachy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://railsgirlssummerofcode.org/"&gt;RGSOC&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://trac.torproject.org/projects/tor/wiki/org/TorSoP"&gt;TOR Summer of Privacy&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.google-melange.com/gci/homepage/google/gci2014"&gt;GCI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://developers.google.com/open-source/gsoc/"&gt;GSOC&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wiki.opendaylight.org/view/Interns"&gt;OpenDaylight summer internship program&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.dataone.org/internships"&gt;DataONE Summer Internship Program&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.fsf.org/volunteer/internships"&gt;Free Software Foundation Internship&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://rada.re/r/rsoc.html"&gt;Radare Summer of Code&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://summer.haskell.org/"&gt;Summer of Haskell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://open.segment.com/fellowship"&gt;Segment Open Fellowship&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://2017.summerofcode.be/"&gt;Open Summer of Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://lab.codingblocks.com/boss/"&gt;Bountiful Open Source Summer- BOSS&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hacktoberfest.digitalocean.com/"&gt;Hacktoberfest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://halite.io/"&gt;Halite AI Bot Challenge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://sigmm.org/Resources/software/ossc"&gt;ACM MM Open Source Software Competition&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;7. Sources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://help.github.com/articles/about-git-rebase/"&gt;Github Help&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.hackerearth.com/getstarted-opensource/"&gt;How to get started with Open Source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://opensource.com/life/15/2/developers-guide-getting-involved-open-source"&gt;A developer's guide to getting into open source&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://eulercoder.me/2017/07/getting-started-open-source/"&gt;Getting Started with Open Source&lt;/a&gt;
+-&lt;a href="https://www.linuxfoundation.org/resources/open-source-guides/starting-open-source-project/"&gt;Starting an Open Source Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.smashingmagazine.com/2013/01/starting-an-open-source-project/"&gt;How To Start An Open-Source Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.freecodecamp.org/how-to-start-an-open-source-project-in-new-years-945bad8800d7"&gt;How to start an Open Source project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.firsttimersonly.com/"&gt;Welcome! Let’s do some open source!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://opensource.guide/"&gt;Open Source Guides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://git-scm.com/book/en/v2/Git-Branching-Rebasing"&gt;Git Rebasing &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/tapasweni-pathak/SOC-Programs/blob/master/README.md"&gt;SOC-Programs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Outreachy"></category><category term="Opensource"></category></entry><entry><title>Gender Identity</title><link href="/gender-identity.html" rel="alternate"></link><published>2018-03-24T00:00:00+05:30</published><updated>2018-03-24T00:00:00+05:30</updated><author><name>Akshita Gupta</name></author><id>tag:None,2018-03-24:/gender-identity.html</id><summary type="html">&lt;p&gt;Gender identity and expression is a positive, core part, of being human and experiencing wellbeing and fulfilment. We shall be discussing about the various aspects that needs to be taken care in order to design community guidelines.&lt;/p&gt;
 &lt;h2&gt;What exactly is Gender identity&lt;a name='what-exactly-is-gender-identity'&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Gender identity is one's personal experience of one's …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;Gender identity and expression is a positive, core part, of being human and experiencing wellbeing and fulfilment. We shall be discussing about the various aspects that needs to be taken care in order to design community guidelines.&lt;/p&gt;
