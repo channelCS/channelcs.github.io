@@ -22,17 +22,15 @@
 
         <title>channelCS Blog</title>
 
-            <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="channelCS Blog Full Atom Feed" />
-            <link href="/feeds/audio-processing.atom.xml" type="application/atom+xml" rel="alternate" title="channelCS Blog Categories Atom Feed" />
 
         <!-- Bootstrap Core CSS -->
-        <link href="/theme/css/bootstrap.min.css" rel="stylesheet">
+        <link href="./theme/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom CSS -->
-        <link href="/theme/css/clean-blog.min.css" rel="stylesheet">
+        <link href="./theme/css/clean-blog.min.css" rel="stylesheet">
 
         <!-- Code highlight color scheme -->
-            <link href="/theme/css/code_blocks/darkly.css" rel="stylesheet">
+            <link href="./theme/css/code_blocks/darkly.css" rel="stylesheet">
 
         <!-- Custom Fonts -->
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -58,10 +56,10 @@
 
 	<meta property="og:type" content="article">
 	<meta property="article:author" content="">
-	<meta property="og:url" content="/build-our-first-neural-network-for-audio-processing.html">
+	<meta property="og:url" content="./build-our-first-neural-network-for-audio-processing.html">
 	<meta property="og:title" content="Build our first Neural Network for Audio Processing">
 	<meta property="og:description" content="">
-	<meta property="og:image" content="/">
+	<meta property="og:image" content="./">
 	<meta property="article:published_time" content="2016-01-15 00:00:00+05:30">
 </head>
 
@@ -78,7 +76,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">channelCS Blog</a>
+                <a class="navbar-brand" href="./">channelCS Blog</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -93,15 +91,15 @@
     </nav>
 
     <!-- Page Header -->
-        <header class="intro-header" style="background-image: url('/theme/images/post-bg.jpg')">
+        <header class="intro-header" style="background-image: url('./theme/images/post-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
                         <h1>Build our first Neural Network for Audio Processing</h1>
                         <span class="meta">Posted by
-                                <a href="/author/aditya-arora.html">Aditya Arora</a>
-                                <a href="/author/akshita-gupta.html">Akshita Gupta</a>
+                                <a href="./author/aditya-arora.html">Aditya Arora</a>
+                                <a href="./author/akshita-gupta.html">Akshita Gupta</a>
                              on Fri 15 January 2016
                         </span>
                         
@@ -117,12 +115,13 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
     <!-- Post Content -->
     <article>
-        <p>Prerequisites:
-* Up and Running with Keras</p>
+        <p>Welcome to this post which guides you through the working of a Deep Neural Network in Audio Processing.
+Prerequisites:</p>
 <ul>
+<li>Up and Running with Keras</li>
 <li>Implementing DNN using Keras</li>
 </ul>
-<p><strong>What is different in Audio?</strong></p>
+<h2>What is different in Audio?</h2>
 <p>A standard deep learning model passes the arrays of text or images directly to the Deep Neural Network or Convolution Neural Network and the rest is done by the model itself.</p>
 <p>As far as Audio is concerned, we first extract features which are then passed to the model for training.</p>
 <p>In this tutorial, you will discover how to develop a multichannel convolutional neural network for Acoustic Scene Classification the NAR dataset.</p>
@@ -130,33 +129,21 @@
 <p>We shall be using the NAR dataset which can be downloaded from this <a href="https://team.inria.fr/perception/nard/">Link</a> to the dataset. The data are freely accessible for scientific research purposes and for non-commercial applications.</p>
 <p>NAR is a dataset  of audio recordings made with the humanoid robot Nao in real-world conditions for sound recognition benchmarking.</p>
 <h3>1.a. Audio Characteristics</h3>
-<p>There are certain parameters in audio which must be considered. These tell us about how and under what conditions were the recordings made for the dataset. The audio for the NAR Dataset has the following characteristics
-* recorded with low-quality sensors (300 Hz – 18 kHz bandpass)</p>
+<p>There are certain parameters in audio which must be considered. These tell us about how and under what conditions were the recordings made for the dataset. The audio for the NAR Dataset has the following characteristics</p>
 <ul>
-<li>
-<p>suffering from typical fan noise from the robot’s internal hardware</p>
-</li>
-<li>
-<p>recorded in multiple real domestic environments (no special acoustic characteristics, reverberations, the presence of multiple sound sources and unknown locations)</p>
-</li>
+<li>recorded with low-quality sensors (300 Hz – 18 kHz bandpass)</li>
+<li>suffering from typical fan noise from the robot’s internal hardware</li>
+<li>recorded in multiple real domestic environments (no special acoustic characteristics, reverberations, the presence of multiple sound sources and unknown locations)</li>
 </ul>
 <h3>1.b. Dataset Characteristics</h3>
 <p>Now comes the details of the dataset files. These are important to consider as we have to convert everything in arrays and pass it on to the model.</p>
-<p>The dataset is organized as follows:
-* Each class is represented by a folder containing all the audio files labeled with the class.</p>
+<p>The dataset is organized as follows:</p>
 <ul>
-<li>
-<p>The name of a folder is the name of the class attached. The name of an audio file is “foldername$id.wav” where $id is an incremental identifier starting at 1.</p>
-</li>
-<li>
-<p>Each audio file is provided in a WAV format (mono signal, 48kHz sampling rate and 16 bits per sample).</p>
-</li>
-<li>
-<p>42 different class for 852 sounds have been recorded and organized.</p>
-</li>
-<li>
-<p>We shall consider four labels <strong>Kitchen</strong>, <strong>Office</strong>, <strong>Nonverbal</strong>, and <strong>Speech</strong>.</p>
-</li>
+<li>Each class is represented by a folder containing all the audio files labeled with the class.</li>
+<li>The name of a folder is the name of the class attached. The name of an audio file is “foldername$id.wav” where $id is an incremental identifier starting at 1.</li>
+<li>Each audio file is provided in a WAV format (mono signal, 48kHz sampling rate and 16 bits per sample).</li>
+<li>42 different class for 852 sounds have been recorded and organized.</li>
+<li>We shall consider four labels <strong>Kitchen</strong>, <strong>Office</strong>, <strong>Nonverbal</strong>, and <strong>Speech</strong>.</li>
 </ul>
 <h2>2. Dataset Manipulation</h2>
 <p>After downloading, we are going to extract it in a folder named <code>NAR_dataset</code>. The <code>tree</code> looks something like</p>
@@ -347,19 +334,11 @@ file1.close()
 <p>This fetches all the files and puts them under the <code>meta.txt</code> such that each file corresponds to their class labels.</p>
 <h2>3. Lets Code</h2>
 <h3>3.a. Feature Extraction</h3>
-<p>In case of Audio, we flatten the data and pass it to the layers. We need to encapsulate the statistics of sound and make our model learn faster. IN our case we are using various features such as :
- * <strong>MEL filterbanks</strong> : Create a Filterbank matrix to combine FFT bins into Mel-frequency bins. </p>
-<ul>
-<li>
-<p><strong>CQT(Constant Q Transform)</strong> : THe Constant-Q-Transform (CQT) is a time-frequency representation where the frequency bins are geometrically spaced and the so called Q-factors (ratios of the center frequencies to bandwidths) of all bins are equal.The CQT essentially a wavelet transform, which means that the frequency resolution is better for low frequencies and the time resolution is better for high frequencies.[4]</p>
-</li>
-<li>
-<p><strong>LOG-MEL(Logarithm - mel)</strong> : We take logarithm of the Filterbank matrix.</p>
-</li>
-<li>
-<p><strong>LOG-MFCC(Logarithm - MFCC )</strong> : A widely used metric for describing timbral characteristics based on the Mel scale. Implemented according to Huang [1], Davis [2], Grierson [3] and the librosa library.</p>
-</li>
-</ul>
+<p>In case of Audio, we flatten the data and pass it to the layers. We need to encapsulate the statistics of sound and make our model learn faster. IN our case we are using various features such as:
+- <strong>MEL filterbanks</strong>: Create a Filterbank matrix to combine FFT bins into Mel-frequency bins. 
+- <strong>CQT(Constant Q Transform)</strong>: THe Constant-Q-Transform (CQT) is a time-frequency representation where the frequency bins are geometrically spaced and the so called Q-factors (ratios of the center frequencies to bandwidths) of all bins are equal.The CQT essentially a wavelet transform, which means that the frequency resolution is better for low frequencies and the time resolution is better for high frequencies.[4]
+- <strong>LOG-MEL(Logarithm - mel)</strong>: We take logarithm of the Filterbank matrix.
+- <strong>LOG-MFCC(Logarithm - MFCC )</strong>: A widely used metric for describing timbral characteristics based on the Mel scale. Implemented according to Huang [1], Davis [2], Grierson [3] and the librosa library.</p>
 <h4>3.a.i. CQT</h4>
 <div class="highlight"><pre><span></span><span class="c1">#Define all features to be extracted</span>
 <span class="kn">import</span> <span class="nn">config</span> <span class="kn">as</span> <span class="nn">cfg</span>
@@ -565,11 +544,12 @@ You can initialize the random number generator with any seed you like      </p>
 
 
 <h2>4. References</h2>
-<p>[1] X. Huang, A. Acero, and H.-W. Hon, Spoken Language Processing: A Guide to Theory, Algorithm, and System Development. Upper Saddle River, NJ, USA: Prentice Hall PTR, 1st ed., 2001.</p>
-<p>[2] S. Davis and P. Mermelstein, “Comparison of parametric representations for monosyllabic word recognition in continuously spoken sentences,” Acoustics, Speech and Signal Processing, IEEE Transactions on, vol. 28, pp. 357–366, Aug 1980.</p>
-<p>[3] M. Grierson, “Maximilian: A cross platform c++ audio synthesis library for artists learning to program.,” in Proceedings of International Computer Music Conference, 2010.</p>
-<p>[4] lidy2016cqt,"CQT-based convolutional neural networks for audio scene classification and domestic audio tagging," in IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events (DCASE 2016), Budapest, Hungary, Tech. Rep, 2016.
-}</p>
+<ol>
+<li>X. Huang, A. Acero, and H.-W. Hon, Spoken Language Processing: A Guide to Theory, Algorithm, and System Development. Upper Saddle River, NJ, USA: Prentice Hall PTR, 1st ed., 2001.</li>
+<li>S. Davis and P. Mermelstein, “Comparison of parametric representations for monosyllabic word recognition in continuously spoken sentences,” Acoustics, Speech and Signal Processing, IEEE Transactions on, vol. 28, pp. 357–366, Aug 1980.</li>
+<li>M. Grierson, “Maximilian: A cross platform c++ audio synthesis library for artists learning to program.,” in Proceedings of International Computer Music Conference, 2010.</li>
+<li>lidy2016cqt,"CQT-based convolutional neural networks for audio scene classification and domestic audio tagging," in IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events (DCASE 2016), Budapest, Hungary, Tech. Rep, 2016.</li>
+</ol>
     </article>
 
     <hr>
@@ -619,23 +599,14 @@ You can initialize the random number generator with any seed you like      </p>
     </footer>
 
     <!-- jQuery -->
-    <script src="/theme/js/jquery.js"></script>
+    <script src="./theme/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="/theme/js/bootstrap.min.js"></script>
+    <script src="./theme/js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="/theme/js/clean-blog.min.js"></script>
+    <script src="./theme/js/clean-blog.min.js"></script>
 
-<script type="text/javascript">
-    var disqus_shortname = 'channelcsgit';
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-</script>
 </body>
 
 </html>
