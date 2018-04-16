@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>channelCS Blog - Audio Processing</title><link href="/" rel="alternate"></link><link href="/feeds/audio-processing.atom.xml" rel="self"></link><id>/</id><updated>2016-01-15T00:00:00+05:30</updated><entry><title>Build our first Neural Network for Audio Processing</title><link href="/build-our-first-neural-network-for-audio-processing.html" rel="alternate"></link><published>2016-01-15T00:00:00+05:30</published><updated>2016-01-15T00:00:00+05:30</updated><author><name>Aditya Arora</name></author><id>tag:None,2016-01-15:/build-our-first-neural-network-for-audio-processing.html</id><summary type="html">&lt;p&gt;Prerequisites:
-* Up and Running with Keras&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>channelCS Blog</title><link href="/" rel="alternate"></link><link href="/feeds/audio-processing.atom.xml" rel="self"></link><id>/</id><updated>2016-01-15T00:00:00+05:30</updated><entry><title>Build our first Neural Network for Audio Processing</title><link href="/build-our-first-neural-network-for-audio-processing.html" rel="alternate"></link><published>2016-01-15T00:00:00+05:30</published><updated>2016-01-15T00:00:00+05:30</updated><author><name>Aditya Arora</name></author><id>tag:,2016-01-15:build-our-first-neural-network-for-audio-processing.html</id><summary type="html">&lt;p&gt;Welcome to this post which guides you through the working of a Deep Neural Network in Audio Processing.
+Prerequisites:&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;Up and Running with Keras&lt;/li&gt;
 &lt;li&gt;Implementing DNN using Keras&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;What is different in Audio?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A standard deep learning model passes the arrays of text or images directly to the Deep Neural Network or Convolution Neural Network and the rest is done by the model itself.&lt;/p&gt;
-&lt;p&gt;As far as Audio …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Prerequisites:
-* Up and Running with Keras&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Implementing DNN using Keras&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;What is different in Audio?&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;What is different in Audio?&lt;/h2&gt;
 &lt;p&gt;A standard deep learning model passes the arrays of text or images directly to the Deep Neural Network or Convolution Neural Network and the rest is done by the model itself.&lt;/p&gt;
 &lt;p&gt;As far as Audio is concerned, we first extract features which are then passed to the model for training.&lt;/p&gt;
 &lt;p&gt;In this tutorial, you will discover how to develop a multichannel convolutional neural network for Acoustic Scene Classification the NAR dataset.&lt;/p&gt;
@@ -19,33 +13,21 @@
 &lt;p&gt;We shall be using the NAR dataset which can be downloaded from this &lt;a href="https://team.inria.fr/perception/nard/"&gt;Link&lt;/a&gt; to the dataset. The data are freely accessible for scientific research purposes and for non-commercial applications.&lt;/p&gt;
 &lt;p&gt;NAR is a dataset  of audio recordings made with the humanoid robot Nao in real-world conditions for sound recognition benchmarking.&lt;/p&gt;
 &lt;h3&gt;1.a. Audio Characteristics&lt;/h3&gt;
-&lt;p&gt;There are certain parameters in audio which must be considered. These tell us about how and under what conditions were the recordings made for the dataset. The audio for the NAR Dataset has the following characteristics
-* recorded with low-quality sensors (300 Hz – 18 kHz bandpass)&lt;/p&gt;
+&lt;p&gt;There are certain parameters in audio which must be considered. These tell us about how and under what conditions were the recordings made for the dataset. The audio for the NAR Dataset has the following characteristics&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;suffering from typical fan noise from the robot’s internal hardware&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;recorded in multiple real domestic environments (no special acoustic characteristics, reverberations, the presence of multiple sound sources and unknown locations)&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;recorded with low-quality sensors (300 Hz – 18 kHz bandpass)&lt;/li&gt;
+&lt;li&gt;suffering from typical fan noise from the robot’s internal hardware&lt;/li&gt;
+&lt;li&gt;recorded in multiple real domestic environments (no special acoustic characteristics, reverberations, the presence of multiple sound sources and unknown locations)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;1.b. Dataset Characteristics&lt;/h3&gt;
 &lt;p&gt;Now comes the details of the dataset files. These are important to consider as we have to convert everything in arrays and pass it on to the model.&lt;/p&gt;
-&lt;p&gt;The dataset is organized as follows:
-* Each class is represented by a folder containing all the audio files labeled with the class.&lt;/p&gt;
+&lt;p&gt;The dataset is organized as follows:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;The name of a folder is the name of the class attached. The name of an audio file is “foldername$id.wav” where $id is an incremental identifier starting at 1.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Each audio file is provided in a WAV format (mono signal, 48kHz sampling rate and 16 bits per sample).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;42 different class for 852 sounds have been recorded and organized.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;We shall consider four labels &lt;strong&gt;Kitchen&lt;/strong&gt;, &lt;strong&gt;Office&lt;/strong&gt;, &lt;strong&gt;Nonverbal&lt;/strong&gt;, and &lt;strong&gt;Speech&lt;/strong&gt;.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Each class is represented by a folder containing all the audio files labeled with the class.&lt;/li&gt;
+&lt;li&gt;The name of a folder is the name of the class attached. The name of an audio file is “foldername$id.wav” where $id is an incremental identifier starting at 1.&lt;/li&gt;
+&lt;li&gt;Each audio file is provided in a WAV format (mono signal, 48kHz sampling rate and 16 bits per sample).&lt;/li&gt;
+&lt;li&gt;42 different class for 852 sounds have been recorded and organized.&lt;/li&gt;
+&lt;li&gt;We shall consider four labels &lt;strong&gt;Kitchen&lt;/strong&gt;, &lt;strong&gt;Office&lt;/strong&gt;, &lt;strong&gt;Nonverbal&lt;/strong&gt;, and &lt;strong&gt;Speech&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;2. Dataset Manipulation&lt;/h2&gt;
 &lt;p&gt;After downloading, we are going to extract it in a folder named &lt;code&gt;NAR_dataset&lt;/code&gt;. The &lt;code&gt;tree&lt;/code&gt; looks something like&lt;/p&gt;
@@ -236,19 +218,11 @@ file1.close()
 &lt;p&gt;This fetches all the files and puts them under the &lt;code&gt;meta.txt&lt;/code&gt; such that each file corresponds to their class labels.&lt;/p&gt;
 &lt;h2&gt;3. Lets Code&lt;/h2&gt;
 &lt;h3&gt;3.a. Feature Extraction&lt;/h3&gt;
-&lt;p&gt;In case of Audio, we flatten the data and pass it to the layers. We need to encapsulate the statistics of sound and make our model learn faster. IN our case we are using various features such as :
- * &lt;strong&gt;MEL filterbanks&lt;/strong&gt; : Create a Filterbank matrix to combine FFT bins into Mel-frequency bins. &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;CQT(Constant Q Transform)&lt;/strong&gt; : THe Constant-Q-Transform (CQT) is a time-frequency representation where the frequency bins are geometrically spaced and the so called Q-factors (ratios of the center frequencies to bandwidths) of all bins are equal.The CQT essentially a wavelet transform, which means that the frequency resolution is better for low frequencies and the time resolution is better for high frequencies.[4]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;LOG-MEL(Logarithm - mel)&lt;/strong&gt; : We take logarithm of the Filterbank matrix.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;LOG-MFCC(Logarithm - MFCC )&lt;/strong&gt; : A widely used metric for describing timbral characteristics based on the Mel scale. Implemented according to Huang [1], Davis [2], Grierson [3] and the librosa library.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;In case of Audio, we flatten the data and pass it to the layers. We need to encapsulate the statistics of sound and make our model learn faster. IN our case we are using various features such as:
+- &lt;strong&gt;MEL filterbanks&lt;/strong&gt;: Create a Filterbank matrix to combine FFT bins into Mel-frequency bins. 
+- &lt;strong&gt;CQT(Constant Q Transform)&lt;/strong&gt;: THe Constant-Q-Transform (CQT) is a time-frequency representation where the frequency bins are geometrically spaced and the so called Q-factors (ratios of the center frequencies to bandwidths) of all bins are equal.The CQT essentially a wavelet transform, which means that the frequency resolution is better for low frequencies and the time resolution is better for high frequencies.[4]
+- &lt;strong&gt;LOG-MEL(Logarithm - mel)&lt;/strong&gt;: We take logarithm of the Filterbank matrix.
+- &lt;strong&gt;LOG-MFCC(Logarithm - MFCC )&lt;/strong&gt;: A widely used metric for describing timbral characteristics based on the Mel scale. Implemented according to Huang [1], Davis [2], Grierson [3] and the librosa library.&lt;/p&gt;
 &lt;h4&gt;3.a.i. CQT&lt;/h4&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;#Define all features to be extracted&lt;/span&gt;
 &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;config&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;cfg&lt;/span&gt;
@@ -454,8 +428,9 @@ You can initialize the random number generator with any seed you like      &lt;/
 
 
 &lt;h2&gt;4. References&lt;/h2&gt;
-&lt;p&gt;[1] X. Huang, A. Acero, and H.-W. Hon, Spoken Language Processing: A Guide to Theory, Algorithm, and System Development. Upper Saddle River, NJ, USA: Prentice Hall PTR, 1st ed., 2001.&lt;/p&gt;
-&lt;p&gt;[2] S. Davis and P. Mermelstein, “Comparison of parametric representations for monosyllabic word recognition in continuously spoken sentences,” Acoustics, Speech and Signal Processing, IEEE Transactions on, vol. 28, pp. 357–366, Aug 1980.&lt;/p&gt;
-&lt;p&gt;[3] M. Grierson, “Maximilian: A cross platform c++ audio synthesis library for artists learning to program.,” in Proceedings of International Computer Music Conference, 2010.&lt;/p&gt;
-&lt;p&gt;[4] lidy2016cqt,"CQT-based convolutional neural networks for audio scene classification and domestic audio tagging," in IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events (DCASE 2016), Budapest, Hungary, Tech. Rep, 2016.
-}&lt;/p&gt;</content><category term="DNN"></category><category term="Audio"></category></entry></feed>
+&lt;ol&gt;
+&lt;li&gt;X. Huang, A. Acero, and H.-W. Hon, Spoken Language Processing: A Guide to Theory, Algorithm, and System Development. Upper Saddle River, NJ, USA: Prentice Hall PTR, 1st ed., 2001.&lt;/li&gt;
+&lt;li&gt;S. Davis and P. Mermelstein, “Comparison of parametric representations for monosyllabic word recognition in continuously spoken sentences,” Acoustics, Speech and Signal Processing, IEEE Transactions on, vol. 28, pp. 357–366, Aug 1980.&lt;/li&gt;
+&lt;li&gt;M. Grierson, “Maximilian: A cross platform c++ audio synthesis library for artists learning to program.,” in Proceedings of International Computer Music Conference, 2010.&lt;/li&gt;
+&lt;li&gt;lidy2016cqt,"CQT-based convolutional neural networks for audio scene classification and domestic audio tagging," in IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events (DCASE 2016), Budapest, Hungary, Tech. Rep, 2016.&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="DNN"></category><category term="Audio"></category></entry></feed>

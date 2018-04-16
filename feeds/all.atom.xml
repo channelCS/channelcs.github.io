@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>channelCS Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2018-04-03T00:00:00+05:30</updated><entry><title>Best practices in a collaborative environment</title><link href="/best-practices-in-a-collaborative-environment.html" rel="alternate"></link><published>2018-04-03T00:00:00+05:30</published><updated>2018-04-03T00:00:00+05:30</updated><author><name>Akshita Gupta</name></author><id>tag:None,2018-04-03:/best-practices-in-a-collaborative-environment.html</id><summary type="html">&lt;p&gt;This blog post is made possible due to amazing mentors                                                                                                                                                                          &lt;a href="https://github.com/djmitche"&gt;Dustin&lt;/a&gt;, &lt;a href="https://github.com/eliperelman"&gt;Eli&lt;/a&gt;, &lt;a href="https://github.com/helfi92"&gt;Hassan&lt;/a&gt; and, &lt;a href="https://github.com/emmairwin"&gt;Emma&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This is a place for all newcomers to Open Source to get an idea for getting started with version control systems and contributing to Open Source projects. It is totally different in maintaining your own …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This blog post is made possible due to amazing mentors                                                                                                                                                                          &lt;a href="https://github.com/djmitche"&gt;Dustin&lt;/a&gt;, &lt;a href="https://github.com/eliperelman"&gt;Eli&lt;/a&gt;, &lt;a href="https://github.com/helfi92"&gt;Hassan&lt;/a&gt; and, &lt;a href="https://github.com/emmairwin"&gt;Emma&lt;/a&gt;.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>channelCS Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2018-04-03T00:00:00+05:30</updated><entry><title>Best practices in a collaborative environment</title><link href="/best-practices-in-a-collaborative-environment.html" rel="alternate"></link><published>2018-04-03T00:00:00+05:30</published><updated>2018-04-03T00:00:00+05:30</updated><author><name>Akshita Gupta</name></author><id>tag:,2018-04-03:best-practices-in-a-collaborative-environment.html</id><summary type="html">&lt;p&gt;This blog post is made possible due to amazing mentors                                                                                                                                                                          &lt;a href="https://github.com/djmitche"&gt;Dustin&lt;/a&gt;, &lt;a href="https://github.com/eliperelman"&gt;Eli&lt;/a&gt;, &lt;a href="https://github.com/helfi92"&gt;Hassan&lt;/a&gt; and, &lt;a href="https://github.com/emmairwin"&gt;Emma&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;This is a place for all newcomers to Open Source to get an idea for getting started with version control systems and contributing to Open Source projects. It is totally different in maintaining your own projects as compared to working with multiple people in order to create a single great product.&lt;/p&gt;
 &lt;p&gt;As an Outreachy aspirant, I have been working for the past two months, solving multiple issues in Mozilla's &lt;a href="https://github.com/taskcluster/taskcluster-tools"&gt;Taskcluster&lt;/a&gt; and &lt;a href="https://github.com/mozilla/diversity"&gt;Diversity&lt;/a&gt; projects.
 They have awesome mentors who have been really helpful in making me understand my mistakes. I want to share these practices with everyone in order to skip those mistakes.&lt;/p&gt;
@@ -214,10 +213,7 @@ In order to create better PRs, it is recommended that you should create PRs on a
 &lt;li&gt;&lt;a href="https://opensource.guide/"&gt;Open Source Guides&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://git-scm.com/book/en/v2/Git-Branching-Rebasing"&gt;Git Rebasing &lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/tapasweni-pathak/SOC-Programs/blob/master/README.md"&gt;SOC-Programs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="Outreachy"></category><category term="Opensource"></category></entry><entry><title>Gender Identity</title><link href="/gender-identity.html" rel="alternate"></link><published>2018-03-24T00:00:00+05:30</published><updated>2018-03-24T00:00:00+05:30</updated><author><name>Akshita Gupta</name></author><id>tag:None,2018-03-24:/gender-identity.html</id><summary type="html">&lt;p&gt;Gender identity and expression is a positive, core part, of being human and experiencing wellbeing and fulfilment. We shall be discussing about the various aspects that needs to be taken care in order to design community guidelines.&lt;/p&gt;
-&lt;h2&gt;What exactly is Gender identity&lt;a name='what-exactly-is-gender-identity'&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Gender identity is one's personal experience of one's …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;Gender identity and expression is a positive, core part, of being human and experiencing wellbeing and fulfilment. We shall be discussing about the various aspects that needs to be taken care in order to design community guidelines.&lt;/p&gt;
+&lt;/ul&gt;</summary><category term="Outreachy"></category><category term="Opensource"></category></entry><entry><title>Gender Identity</title><link href="/gender-identity.html" rel="alternate"></link><published>2018-03-24T00:00:00+05:30</published><updated>2018-03-24T00:00:00+05:30</updated><author><name>Akshita Gupta</name></author><id>tag:,2018-03-24:gender-identity.html</id><summary type="html">&lt;p&gt;Gender identity and expression is a positive, core part, of being human and experiencing wellbeing and fulfilment. We shall be discussing about the various aspects that needs to be taken care in order to design community guidelines.&lt;/p&gt;
 &lt;h2&gt;What exactly is Gender identity&lt;a name='what-exactly-is-gender-identity'&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Gender identity is one's personal experience of one's own gender.
@@ -268,8 +264,7 @@ This may not be a journey to a destination, but a path. They are the ones shapin
 &lt;li&gt;&lt;a href="https://rm.coe.int/16806da753"&gt;COE&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.genderspectrum.org/explore-topics/teens/"&gt;GenderSpectrum&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://unstats.un.org/unsd/class/intercop/expertgroup/2015/AC289-Bk2.PDF"&gt;UN&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="Mozilla"></category><category term="Genders"></category></entry><entry><title>Changing Keras Version</title><link href="/changing-keras-version.html" rel="alternate"></link><published>2018-03-22T00:00:00+05:30</published><updated>2018-03-22T00:00:00+05:30</updated><author><name>Aditya Arora</name></author><id>tag:None,2018-03-22:/changing-keras-version.html</id><summary type="html">&lt;p&gt;Sometimes, we get errors which when looked up as &lt;strong&gt;Github issues&lt;/strong&gt; dont give us a solid answer. It is told to change &lt;strong&gt;Theano&lt;/strong&gt; versions to using &lt;strong&gt;CPU&lt;/strong&gt;. A simple trick is to downgrade your keras version from &lt;code&gt;2.1.x&lt;/code&gt; to &lt;code&gt;2.0.y&lt;/code&gt; where &lt;code&gt;y&amp;lt;=5&lt;/code&gt;.
-For this we …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Sometimes, we get errors which when looked up as &lt;strong&gt;Github issues&lt;/strong&gt; dont give us a solid answer. It is told to change &lt;strong&gt;Theano&lt;/strong&gt; versions to using &lt;strong&gt;CPU&lt;/strong&gt;. A simple trick is to downgrade your keras version from &lt;code&gt;2.1.x&lt;/code&gt; to &lt;code&gt;2.0.y&lt;/code&gt; where &lt;code&gt;y&amp;lt;=5&lt;/code&gt;.
+&lt;/ul&gt;</summary><category term="Mozilla"></category><category term="Genders"></category></entry><entry><title>Changing Keras Version</title><link href="/changing-keras-version.html" rel="alternate"></link><published>2018-03-22T00:00:00+05:30</published><updated>2018-03-22T00:00:00+05:30</updated><author><name>Aditya Arora</name></author><id>tag:,2018-03-22:changing-keras-version.html</id><summary type="html">&lt;p&gt;Sometimes, we get errors which when looked up as &lt;strong&gt;Github issues&lt;/strong&gt; dont give us a solid answer. It is told to change &lt;strong&gt;Theano&lt;/strong&gt; versions to using &lt;strong&gt;CPU&lt;/strong&gt;. A simple trick is to downgrade your keras version from &lt;code&gt;2.1.x&lt;/code&gt; to &lt;code&gt;2.0.y&lt;/code&gt; where &lt;code&gt;y&amp;lt;=5&lt;/code&gt;.
 For this we have to check which version we currently have. Also note that the previous versions are not available in &lt;code&gt;conda&lt;/code&gt;. This means we have to use &lt;code&gt;pip&lt;/code&gt;for installations. Also, we dont want to change any other dependencies as they are working well.
 - Check keras version&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ conda list keras
@@ -304,35 +299,30 @@ cfbdb63098c40336d7d2b269be5ea
 Successfully built keras
 Installing collected packages: keras
 Successfully installed keras-2.0.5
-&lt;/pre&gt;&lt;/div&gt;</content><category term="Keras"></category><category term="Theano"></category><category term="Errors"></category></entry><entry><title>Open Source Data Visualization</title><link href="/open-source-data-visualization.html" rel="alternate"></link><published>2018-03-19T00:00:00+05:30</published><updated>2018-03-19T00:00:00+05:30</updated><author><name>Akshita Gupta</name></author><id>tag:None,2018-03-19:/open-source-data-visualization.html</id><summary type="html">&lt;p&gt;As a contributor to the Diversity team of Mozilla I have analyzed how users engage with their Open Source community. I have seen what is the gender spread across communities, their contributions on Github aing with their Employment status. The data was extracted from Github's Open Source survey from 2017 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;As a contributor to the Diversity team of Mozilla I have analyzed how users engage with their Open Source community. I have seen what is the gender spread across communities, their contributions on Github aing with their Employment status. The data was extracted from Github's Open Source survey from 2017.&lt;/p&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="Keras"></category><category term="Theano"></category><category term="Errors"></category></entry><entry><title>Open Source Data Visualization</title><link href="/open-source-data-visualization.html" rel="alternate"></link><published>2018-03-19T00:00:00+05:30</published><updated>2018-03-19T00:00:00+05:30</updated><author><name>Akshita Gupta</name></author><id>tag:,2018-03-19:open-source-data-visualization.html</id><summary type="html">&lt;p&gt;As a contributor to the Diversity team of Mozilla I have analyzed how users engage with their Open Source community. I have seen what is the gender spread across communities, their contributions on Github aing with their Employment status. The data was extracted from Github's Open Source survey from 2017.&lt;/p&gt;
 &lt;h2&gt;Users who value cost&lt;/h2&gt;
 &lt;p&gt;It seems that cost plays a major part of selecting a project.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Plot 1" src="https://i.imgur.com/3C3Ivgz.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Plot 1" src="https://i.imgur.com/3C3Ivgz.png" /&gt;&lt;/p&gt;
 &lt;p&gt;There were a total of 4126 Users on which the survey did not have a NaN value. Out of those, 3648 people value the cost of the project which makes around 88.4% of the users.&lt;/p&gt;
 &lt;h2&gt;Github Users by Gender&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="Plot 2" src="https://i.imgur.com/9UWFD7b.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Plot 2" src="https://i.imgur.com/9UWFD7b.png" /&gt;&lt;/p&gt;
 &lt;p&gt;It seems that the gender distribution among Github users is not that evenly distributed as 95.4 % of total Github users are men.&lt;/p&gt;
 &lt;h2&gt;Employment Status of People&lt;/h2&gt;
-&lt;p&gt;Full time Employed users tend to use Github more than any other users. This indicates that organisations, nowadays, are moving towards Open Source. &lt;br&gt;
-&lt;img alt="Plot 3" src="https://i.imgur.com/7GLZwhh.png"&gt;&lt;/p&gt;
+&lt;p&gt;Full time Employed users tend to use Github more than any other users. This indicates that organisations, nowadays, are moving towards Open Source. &lt;br /&gt;
+&lt;img alt="Plot 3" src="https://i.imgur.com/7GLZwhh.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Another aspect which can be looked at is the number of users on Github.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Plot 4" src="https://i.imgur.com/wCr9XkR.png"&gt;
+&lt;p&gt;&lt;img alt="Plot 4" src="https://i.imgur.com/wCr9XkR.png" /&gt;
 The Pie-Chart very well represents that Github is used by64.1% full time employed users.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Plot 5" src="https://i.imgur.com/dhoM0BA.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Plot 5" src="https://i.imgur.com/dhoM0BA.png" /&gt;&lt;/p&gt;
 &lt;p&gt;Also, when looked at full time employed users, we can see that women constitute only 3.5% of the total users.&lt;/p&gt;
 &lt;p&gt;We shall now see how much does women contribute in code.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Plot 6" src="https://i.imgur.com/MR2b4Cf.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Plot 6" src="https://i.imgur.com/MR2b4Cf.png" /&gt;&lt;/p&gt;
 &lt;p&gt;It is saddening to see that only 32.4% of the total women contribute Frequently. To solifdify if we are heading right, lets see the total number of users about whom we are talking about. There seem to be data of only about 74 women, so this measure may not be an accurate way to come to a conclusion.&lt;/p&gt;
 &lt;h2&gt;Where do people get help&lt;/h2&gt;
 &lt;p&gt;When analysed, it was seen that 56.0% people got help from people that they never knew before.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Plot 7" src="https://i.imgur.com/jXf48SG.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Plot 7" src="https://i.imgur.com/jXf48SG.png" /&gt;&lt;/p&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;In the end I conclude that the percentage of Women in OSS is way behind that of men. Also, OSS seems to be a friendly environment as people get help from others whom they have not known before. This creates a platform for women to come and showcase their skills.&lt;/p&gt;</content><category term="Outreachy"></category></entry><entry><title>Using FOSS Heartbeat for generating insights in Normandy</title><link href="/using-foss-heartbeat-for-generating-insights-in-normandy.html" rel="alternate"></link><published>2018-03-19T00:00:00+05:30</published><updated>2018-03-19T00:00:00+05:30</updated><author><name>Akshita Gupta</name></author><id>tag:None,2018-03-19:/using-foss-heartbeat-for-generating-insights-in-normandy.html</id><summary type="html">&lt;h2&gt;Task&lt;/h2&gt;
-&lt;p&gt;To analyse the FOSS Hearbeat tool and understand the health of the community. The tool uses CoreNLP algorithms and the GitHub API to
-gather information about the language and etiquette expressed in the PRs and the Issues of a repository.&lt;/p&gt;
-&lt;h2&gt;Why did I choose this repository?&lt;/h2&gt;
-&lt;p&gt;For this task …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Task&lt;/h2&gt;
-&lt;p&gt;To analyse the FOSS Hearbeat tool and understand the health of the community. The tool uses CoreNLP algorithms and the GitHub API to
+&lt;p&gt;In the end I conclude that the percentage of Women in OSS is way behind that of men. Also, OSS seems to be a friendly environment as people get help from others whom they have not known before. This creates a platform for women to come and showcase their skills.&lt;/p&gt;</summary><category term="Outreachy"></category></entry><entry><title>Using FOSS Heartbeat for generating insights in Normandy</title><link href="/using-foss-heartbeat-for-generating-insights-in-normandy.html" rel="alternate"></link><published>2018-03-19T00:00:00+05:30</published><updated>2018-03-19T00:00:00+05:30</updated><author><name>Akshita Gupta</name></author><id>tag:,2018-03-19:using-foss-heartbeat-for-generating-insights-in-normandy.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Task&lt;/strong&gt;: To analyse the FOSS Hearbeat tool and understand the health of the community. The tool uses CoreNLP algorithms and the GitHub API to
 gather information about the language and etiquette expressed in the PRs and the Issues of a repository.&lt;/p&gt;
 &lt;h2&gt;Why did I choose this repository?&lt;/h2&gt;
 &lt;p&gt;For this task, I analysed the Mozilla's repository, &lt;a href="https://github.com/mozilla/normandy"&gt;Normandy&lt;/a&gt;. 
@@ -347,43 +337,31 @@ From there, I came to know about Normandy and thought it would be great to see t
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;People help each other&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt="Plot 1" src="https://i.imgur.com/89mqqAV.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Plot 1" src="https://i.imgur.com/89mqqAV.png" /&gt;&lt;/p&gt;
 &lt;p&gt;It seems that people tend to help others as the comments made by a person on other's issue is huge.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Most issues are opened by newcomers&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt="Plot 2" src="https://i.imgur.com/77UFJoo.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Plot 2" src="https://i.imgur.com/77UFJoo.png" /&gt;&lt;/p&gt;
 &lt;p&gt;This plot demonstrates that most issues are genrated by people who are new to the organisation. We can say that they seem to be more interested in knowing more about the project and give ideas for it as well.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Response to Pull Requests&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt="Plot 3" src="https://i.imgur.com/bI5wdDT.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Plot 3" src="https://i.imgur.com/bI5wdDT.png" /&gt;&lt;/p&gt;
 &lt;p&gt;This plot demonstrates how Normandy Maintainers respond quickly to the pull requests that are opened. The feedback is instant and very helpful!&lt;/p&gt;
 &lt;h2&gt;Inference&lt;/h2&gt;
-&lt;p&gt;The FOSS Heartbeat tool is mapsa various kinds of insights and gives a very encouraging statistics about the health of an oranisation.&lt;/p&gt;</content><category term="Outreachy"></category></entry><entry><title>Wrong files added in commit</title><link href="/wrong-files-added-in-commit.html" rel="alternate"></link><published>2018-03-19T00:00:00+05:30</published><updated>2018-03-19T00:00:00+05:30</updated><author><name>Aditya Arora</name></author><id>tag:None,2018-03-19:/wrong-files-added-in-commit.html</id><summary type="html">&lt;p&gt;So this is what you have done
-- Added the wrong files to the staging area
-- Commited
-- Not push&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What to do now?&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Reset to the last commit&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git reset --soft HEAD~1
+&lt;p&gt;The FOSS Heartbeat tool is mapsa various kinds of insights and gives a very encouraging statistics about the health of an oranisation.&lt;/p&gt;</summary><category term="Outreachy"></category></entry><entry><title>Wrong files added in commit</title><link href="/wrong-files-added-in-commit.html" rel="alternate"></link><published>2018-03-19T00:00:00+05:30</published><updated>2018-03-19T00:00:00+05:30</updated><author><name>Aditya Arora</name></author><id>tag:,2018-03-19:wrong-files-added-in-commit.html</id><summary type="html">&lt;p&gt;This post helps users to revert changes made while using git. We might add wrong files while committing. It is a good practice to use &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git status
 &lt;/pre&gt;&lt;/div&gt;
 
 
+&lt;p&gt;to check what files are currently worked on.
+So this is what you have done&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Remove folders that you dont want&lt;/li&gt;
+&lt;li&gt;Added the wrong files to the staging area&lt;/li&gt;
+&lt;li&gt;Commited&lt;/li&gt;
+&lt;li&gt;Not push&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git reset node_modules/
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;ul&gt;
-&lt;li&gt;Check status to see the added files in the …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;So this is what you have done
-- Added the wrong files to the staging area
-- Commited
-- Not push&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What to do now?&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Reset to the last commit&lt;/li&gt;
@@ -417,21 +395,13 @@ From there, I came to know about Normandy and thought it would be great to see t
 &lt;li&gt;Push the commits&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git push -u origin master
-&lt;/pre&gt;&lt;/div&gt;</content><category term="Errors"></category></entry><entry><title>Pelican is great</title><link href="/pelican-is-great.html" rel="alternate"></link><published>2018-01-15T17:33:00+05:30</published><updated>2018-01-15T17:33:00+05:30</updated><author><name>Akshita Gupta</name></author><id>tag:None,2018-01-15:/pelican-is-great.html</id><summary type="html">&lt;h1&gt;This is test page&lt;/h1&gt;
-&lt;p&gt;If you have author rights, kindly see this page.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;This is test page&lt;/h1&gt;
-&lt;p&gt;If you have author rights, kindly see this page.&lt;/p&gt;</content><category term="testingblog"></category></entry><entry><title>Build our first Neural Network for Audio Processing</title><link href="/build-our-first-neural-network-for-audio-processing.html" rel="alternate"></link><published>2016-01-15T00:00:00+05:30</published><updated>2016-01-15T00:00:00+05:30</updated><author><name>Aditya Arora</name></author><id>tag:None,2016-01-15:/build-our-first-neural-network-for-audio-processing.html</id><summary type="html">&lt;p&gt;Prerequisites:
-* Up and Running with Keras&lt;/p&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="Errors"></category></entry><entry><title>Pelican is great</title><link href="/pelican-is-great.html" rel="alternate"></link><published>2018-01-15T17:33:00+05:30</published><updated>2018-01-15T17:33:00+05:30</updated><author><name>Akshita Gupta, Aditya Arora</name></author><id>tag:,2018-01-15:pelican-is-great.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;This is test page&lt;/strong&gt; If you have author rights, kindly see this page.&lt;/p&gt;</summary><category term="testing"></category></entry><entry><title>Build our first Neural Network for Audio Processing</title><link href="/build-our-first-neural-network-for-audio-processing.html" rel="alternate"></link><published>2016-01-15T00:00:00+05:30</published><updated>2016-01-15T00:00:00+05:30</updated><author><name>Aditya Arora</name></author><id>tag:,2016-01-15:build-our-first-neural-network-for-audio-processing.html</id><summary type="html">&lt;p&gt;Welcome to this post which guides you through the working of a Deep Neural Network in Audio Processing.
+Prerequisites:&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;Up and Running with Keras&lt;/li&gt;
 &lt;li&gt;Implementing DNN using Keras&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;What is different in Audio?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A standard deep learning model passes the arrays of text or images directly to the Deep Neural Network or Convolution Neural Network and the rest is done by the model itself.&lt;/p&gt;
-&lt;p&gt;As far as Audio …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Prerequisites:
-* Up and Running with Keras&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Implementing DNN using Keras&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;What is different in Audio?&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;What is different in Audio?&lt;/h2&gt;
 &lt;p&gt;A standard deep learning model passes the arrays of text or images directly to the Deep Neural Network or Convolution Neural Network and the rest is done by the model itself.&lt;/p&gt;
 &lt;p&gt;As far as Audio is concerned, we first extract features which are then passed to the model for training.&lt;/p&gt;
 &lt;p&gt;In this tutorial, you will discover how to develop a multichannel convolutional neural network for Acoustic Scene Classification the NAR dataset.&lt;/p&gt;
@@ -439,33 +409,21 @@ From there, I came to know about Normandy and thought it would be great to see t
 &lt;p&gt;We shall be using the NAR dataset which can be downloaded from this &lt;a href="https://team.inria.fr/perception/nard/"&gt;Link&lt;/a&gt; to the dataset. The data are freely accessible for scientific research purposes and for non-commercial applications.&lt;/p&gt;
 &lt;p&gt;NAR is a dataset  of audio recordings made with the humanoid robot Nao in real-world conditions for sound recognition benchmarking.&lt;/p&gt;
 &lt;h3&gt;1.a. Audio Characteristics&lt;/h3&gt;
-&lt;p&gt;There are certain parameters in audio which must be considered. These tell us about how and under what conditions were the recordings made for the dataset. The audio for the NAR Dataset has the following characteristics
-* recorded with low-quality sensors (300 Hz – 18 kHz bandpass)&lt;/p&gt;
+&lt;p&gt;There are certain parameters in audio which must be considered. These tell us about how and under what conditions were the recordings made for the dataset. The audio for the NAR Dataset has the following characteristics&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;suffering from typical fan noise from the robot’s internal hardware&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;recorded in multiple real domestic environments (no special acoustic characteristics, reverberations, the presence of multiple sound sources and unknown locations)&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;recorded with low-quality sensors (300 Hz – 18 kHz bandpass)&lt;/li&gt;
+&lt;li&gt;suffering from typical fan noise from the robot’s internal hardware&lt;/li&gt;
+&lt;li&gt;recorded in multiple real domestic environments (no special acoustic characteristics, reverberations, the presence of multiple sound sources and unknown locations)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;1.b. Dataset Characteristics&lt;/h3&gt;
 &lt;p&gt;Now comes the details of the dataset files. These are important to consider as we have to convert everything in arrays and pass it on to the model.&lt;/p&gt;
-&lt;p&gt;The dataset is organized as follows:
-* Each class is represented by a folder containing all the audio files labeled with the class.&lt;/p&gt;
+&lt;p&gt;The dataset is organized as follows:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;The name of a folder is the name of the class attached. The name of an audio file is “foldername$id.wav” where $id is an incremental identifier starting at 1.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Each audio file is provided in a WAV format (mono signal, 48kHz sampling rate and 16 bits per sample).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;42 different class for 852 sounds have been recorded and organized.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;We shall consider four labels &lt;strong&gt;Kitchen&lt;/strong&gt;, &lt;strong&gt;Office&lt;/strong&gt;, &lt;strong&gt;Nonverbal&lt;/strong&gt;, and &lt;strong&gt;Speech&lt;/strong&gt;.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Each class is represented by a folder containing all the audio files labeled with the class.&lt;/li&gt;
+&lt;li&gt;The name of a folder is the name of the class attached. The name of an audio file is “foldername$id.wav” where $id is an incremental identifier starting at 1.&lt;/li&gt;
+&lt;li&gt;Each audio file is provided in a WAV format (mono signal, 48kHz sampling rate and 16 bits per sample).&lt;/li&gt;
+&lt;li&gt;42 different class for 852 sounds have been recorded and organized.&lt;/li&gt;
+&lt;li&gt;We shall consider four labels &lt;strong&gt;Kitchen&lt;/strong&gt;, &lt;strong&gt;Office&lt;/strong&gt;, &lt;strong&gt;Nonverbal&lt;/strong&gt;, and &lt;strong&gt;Speech&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;2. Dataset Manipulation&lt;/h2&gt;
 &lt;p&gt;After downloading, we are going to extract it in a folder named &lt;code&gt;NAR_dataset&lt;/code&gt;. The &lt;code&gt;tree&lt;/code&gt; looks something like&lt;/p&gt;
@@ -656,19 +614,11 @@ file1.close()
 &lt;p&gt;This fetches all the files and puts them under the &lt;code&gt;meta.txt&lt;/code&gt; such that each file corresponds to their class labels.&lt;/p&gt;
 &lt;h2&gt;3. Lets Code&lt;/h2&gt;
 &lt;h3&gt;3.a. Feature Extraction&lt;/h3&gt;
-&lt;p&gt;In case of Audio, we flatten the data and pass it to the layers. We need to encapsulate the statistics of sound and make our model learn faster. IN our case we are using various features such as :
- * &lt;strong&gt;MEL filterbanks&lt;/strong&gt; : Create a Filterbank matrix to combine FFT bins into Mel-frequency bins. &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;CQT(Constant Q Transform)&lt;/strong&gt; : THe Constant-Q-Transform (CQT) is a time-frequency representation where the frequency bins are geometrically spaced and the so called Q-factors (ratios of the center frequencies to bandwidths) of all bins are equal.The CQT essentially a wavelet transform, which means that the frequency resolution is better for low frequencies and the time resolution is better for high frequencies.[4]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;LOG-MEL(Logarithm - mel)&lt;/strong&gt; : We take logarithm of the Filterbank matrix.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;LOG-MFCC(Logarithm - MFCC )&lt;/strong&gt; : A widely used metric for describing timbral characteristics based on the Mel scale. Implemented according to Huang [1], Davis [2], Grierson [3] and the librosa library.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;In case of Audio, we flatten the data and pass it to the layers. We need to encapsulate the statistics of sound and make our model learn faster. IN our case we are using various features such as:
+- &lt;strong&gt;MEL filterbanks&lt;/strong&gt;: Create a Filterbank matrix to combine FFT bins into Mel-frequency bins. 
+- &lt;strong&gt;CQT(Constant Q Transform)&lt;/strong&gt;: THe Constant-Q-Transform (CQT) is a time-frequency representation where the frequency bins are geometrically spaced and the so called Q-factors (ratios of the center frequencies to bandwidths) of all bins are equal.The CQT essentially a wavelet transform, which means that the frequency resolution is better for low frequencies and the time resolution is better for high frequencies.[4]
+- &lt;strong&gt;LOG-MEL(Logarithm - mel)&lt;/strong&gt;: We take logarithm of the Filterbank matrix.
+- &lt;strong&gt;LOG-MFCC(Logarithm - MFCC )&lt;/strong&gt;: A widely used metric for describing timbral characteristics based on the Mel scale. Implemented according to Huang [1], Davis [2], Grierson [3] and the librosa library.&lt;/p&gt;
 &lt;h4&gt;3.a.i. CQT&lt;/h4&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;#Define all features to be extracted&lt;/span&gt;
 &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;config&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;cfg&lt;/span&gt;
@@ -874,8 +824,9 @@ You can initialize the random number generator with any seed you like      &lt;/
 
 
 &lt;h2&gt;4. References&lt;/h2&gt;
-&lt;p&gt;[1] X. Huang, A. Acero, and H.-W. Hon, Spoken Language Processing: A Guide to Theory, Algorithm, and System Development. Upper Saddle River, NJ, USA: Prentice Hall PTR, 1st ed., 2001.&lt;/p&gt;
-&lt;p&gt;[2] S. Davis and P. Mermelstein, “Comparison of parametric representations for monosyllabic word recognition in continuously spoken sentences,” Acoustics, Speech and Signal Processing, IEEE Transactions on, vol. 28, pp. 357–366, Aug 1980.&lt;/p&gt;
-&lt;p&gt;[3] M. Grierson, “Maximilian: A cross platform c++ audio synthesis library for artists learning to program.,” in Proceedings of International Computer Music Conference, 2010.&lt;/p&gt;
-&lt;p&gt;[4] lidy2016cqt,"CQT-based convolutional neural networks for audio scene classification and domestic audio tagging," in IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events (DCASE 2016), Budapest, Hungary, Tech. Rep, 2016.
-}&lt;/p&gt;</content><category term="DNN"></category><category term="Audio"></category></entry></feed>
+&lt;ol&gt;
+&lt;li&gt;X. Huang, A. Acero, and H.-W. Hon, Spoken Language Processing: A Guide to Theory, Algorithm, and System Development. Upper Saddle River, NJ, USA: Prentice Hall PTR, 1st ed., 2001.&lt;/li&gt;
+&lt;li&gt;S. Davis and P. Mermelstein, “Comparison of parametric representations for monosyllabic word recognition in continuously spoken sentences,” Acoustics, Speech and Signal Processing, IEEE Transactions on, vol. 28, pp. 357–366, Aug 1980.&lt;/li&gt;
+&lt;li&gt;M. Grierson, “Maximilian: A cross platform c++ audio synthesis library for artists learning to program.,” in Proceedings of International Computer Music Conference, 2010.&lt;/li&gt;
+&lt;li&gt;lidy2016cqt,"CQT-based convolutional neural networks for audio scene classification and domestic audio tagging," in IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events (DCASE 2016), Budapest, Hungary, Tech. Rep, 2016.&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="DNN"></category><category term="Audio"></category></entry></feed>
