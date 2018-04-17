@@ -22,15 +22,17 @@
 
         <title>channelCS Blog</title>
 
+            <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="channelCS Blog Full Atom Feed" />
+            <link href="/feeds/docs.atom.xml" type="application/atom+xml" rel="alternate" title="channelCS Blog Categories Atom Feed" />
 
         <!-- Bootstrap Core CSS -->
-        <link href="./theme/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/theme/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom CSS -->
-        <link href="./theme/css/clean-blog.min.css" rel="stylesheet">
+        <link href="/theme/css/clean-blog.min.css" rel="stylesheet">
 
         <!-- Code highlight color scheme -->
-            <link href="./theme/css/code_blocks/darkly.css" rel="stylesheet">
+            <link href="/theme/css/code_blocks/darkly.css" rel="stylesheet">
 
         <!-- Custom Fonts -->
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -55,10 +57,10 @@
 
 	<meta property="og:type" content="article">
 	<meta property="article:author" content="">
-	<meta property="og:url" content="./floydhub-documentation.html">
+	<meta property="og:url" content="/floydhub-documentation.html">
 	<meta property="og:title" content="Floydhub Documentation">
 	<meta property="og:description" content="">
-	<meta property="og:image" content="./">
+	<meta property="og:image" content="/">
 	<meta property="article:published_time" content="2017-08-20 00:00:00+05:30">
 </head>
 
@@ -75,7 +77,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="./">channelCS Blog</a>
+                <a class="navbar-brand" href="/">channelCS Blog</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -90,15 +92,15 @@
     </nav>
 
     <!-- Page Header -->
-        <header class="intro-header" style="background-image: url('./theme/images/post-bg.jpg')">
+        <header class="intro-header" style="background-image: url('/theme/images/post-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
                         <h1>Floydhub Documentation</h1>
                         <span class="meta">Posted by
-                                <a href="./author/aditya-arora.html">Aditya Arora</a>
-                                <a href="./author/akshita-gupta.html">Akshita Gupta</a>
+                                <a href="/author/aditya-arora.html">Aditya Arora</a>
+                                <a href="/author/akshita-gupta.html">Akshita Gupta</a>
                              on Sun 20 August 2017
                         </span>
                         
@@ -235,21 +237,21 @@ GY3QRFFUA8KpbnqvroTPPW  alice/sent-data:1            1
 <p><strong>Note</strong>: Adding the codes in a separate folder prevents re-loading of data in the memory of floyd server.
 Floyd server synchronizes the WHOLE FOLDER in which the code is located when you run the code using the above command, which is actually a waste of (upload) time and a problem of data redundancy as you have already uploaded the data on the server.</p>
 <ul>
-<li>How to link data in my script</li>
-</ul>
-<div class="highlight"><pre><span></span>x_data = np.load(&#39;/nfiles/fileone.npy&#39;)
+<li>How to link data in my script<div class="highlight"><pre><span></span>x_data = np.load(&#39;/nfiles/fileone.npy&#39;)
 y_data = np.load(&#39;/nfiles/filetwo.npy&#39;)
 </pre></div>
 
 
+</li>
+</ul>
 <p>Here, nfiles is my MOUNT point.</p>
 <ul>
-<li>If you are using Anaconda prompt and you come across the following error after running the command: "pip install -U floyd-cli": scandir could not be installed</li>
-</ul>
-<div class="highlight"><pre><span></span>$ conda install -c conda-forge <span class="nv">scandir</span><span class="o">=</span><span class="m">1</span>.5
+<li>If you are using Anaconda prompt and you come across the following error after running the command: "pip install -U floyd-cli": scandir could not be installed<div class="highlight"><pre><span></span>$ conda install -c conda-forge <span class="nv">scandir</span><span class="o">=</span><span class="m">1</span>.5
 </pre></div>
 
 
+</li>
+</ul>
 <p>If you have any issues kindly raise an issue in the <a href="https://github.com/channelCS/channelcs.github.io">GitHub</a> repo.</p>
     </article>
 
@@ -300,14 +302,23 @@ y_data = np.load(&#39;/nfiles/filetwo.npy&#39;)
     </footer>
 
     <!-- jQuery -->
-    <script src="./theme/js/jquery.js"></script>
+    <script src="/theme/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="./theme/js/bootstrap.min.js"></script>
+    <script src="/theme/js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="./theme/js/clean-blog.min.js"></script>
+    <script src="/theme/js/clean-blog.min.js"></script>
 
+<script type="text/javascript">
+    var disqus_shortname = 'channelcsgit';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
 </body>
 
 </html>

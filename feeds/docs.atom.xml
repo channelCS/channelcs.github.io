@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>channelCS Blog</title><link href="/" rel="alternate"></link><link href="/feeds/docs.atom.xml" rel="self"></link><id>/</id><updated>2018-04-17T00:00:00+05:30</updated><entry><title>Floydhub Documentation</title><link href="/floydhub-documentation.html" rel="alternate"></link><published>2018-04-17T00:00:00+05:30</published><updated>2018-04-17T00:00:00+05:30</updated><author><name>Aditya Arora</name></author><id>tag:,2017-08-20:floydhub-documentation.html</id><summary type="html">&lt;h6&gt;&lt;/h6&gt;
+&lt;p&gt;Floyd is a great cloud computing platform.I have used it for running a lot of my deep learning models. The main advantage of using Floyd is that you don't require a &lt;strong&gt;Credit Card&lt;/strong&gt; and that is the main reason for giving a try to Floyd. &lt;/p&gt;
+&lt;p&gt;Floyd has a pretty handy &lt;em&gt;documentation&lt;/em&gt; at
+&lt;a href="http://docs.floydhub.com/" title="Floyd's Documentation"&gt;Floydhub&lt;/a&gt; which is updated at regular intervals.&lt;/p&gt;
+&lt;p&gt;Initiallly I wrote this blog when there were a lot of confusions but now it is a very crisp and easy to use docs page.
+This post contains steps to Get up and running with Floyd on Windows.&lt;/p&gt;
+&lt;h2&gt;Python Machine Learning Setting up Floyd&lt;/h2&gt;
+&lt;p&gt;Setting up floyd for using on Windows.&lt;/p&gt;
+&lt;h3&gt;Account&lt;/h3&gt;
+&lt;p&gt;Make your account at
+&lt;a href="https://www.floydhub.com/" title="Floyd's Homepage"&gt;Floydhub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can get a free account which gives 10GB of storage and 20 hours of CPU time.
+You can upgrade to any of their paid plans if you want to use their GPU and continue using their services.&lt;/p&gt;
+&lt;h3&gt;Installation&lt;/h3&gt;
+&lt;p&gt;Install the &lt;code&gt;floyd-cli&lt;/code&gt; using&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ pip install -U floyd-cli
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Login&lt;/h3&gt;
+&lt;p&gt;Make sure you are logged in to your browser before continuing with this step.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ floyd login
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Copy and paste your authentication token in your terminal&lt;/p&gt;
+&lt;h2&gt;Run project&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Make a project folder&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ mkdir myproject
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Change to project folder&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span class="nb"&gt;cd&lt;/span&gt; myproject
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Make a folder for data&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ mkdir &amp;lt;mydata&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Make a folder for code&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ mkdir &amp;lt;mycode&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Paste all your data in &lt;code&gt;&amp;lt;mydata&amp;gt;&lt;/code&gt; and your code in &lt;code&gt;&amp;lt;mycode&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Change to data directory&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span class="nb"&gt;cd&lt;/span&gt; &amp;lt;mydata&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Initialise data&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ floyd data init sent-data
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Upload your dataset to Floyd&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ floyd data upload
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Floyd will generate a data id for the uploaded dataset. This uploaded dataset can be used in your future experiments, if needed, using this data id.
+&lt;br /&gt;&lt;strong&gt;Output&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Creating data source. Uploading files ...
+DATA ID                 NAME                    VERSION
+----------------------  --------------------  ---------
+GY3QRFFUA8KpbnqvroTPPW  alice/sent-data:1            1
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Change to the code directory&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span class="nb"&gt;cd&lt;/span&gt; ../mycode
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Run the code&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ floyd run --data &amp;lt;DATA_KEY&amp;gt;:&amp;lt;MOUNT&amp;gt; --env theano-0.9:py2 &lt;span class="s2"&gt;&amp;quot;python filename.py&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This would run the code in the cloud.&lt;br /&gt;&lt;strong&gt;Example code&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ floyd run --data GY3QRFFUA8KpbnqvroTPPW:mydata --env theano-0.9:py2 &lt;span class="s2"&gt;&amp;quot;python mlp.py&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Check the status of code&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ floyd logs &amp;lt;RUN_ID&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Some common problems:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Should I put my code and data in separate folders&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Adding the codes in a separate folder prevents re-loading of data in the memory of floyd server.
+Floyd server synchronizes the WHOLE FOLDER in which the code is located when you run the code using the above command, which is actually a waste of (upload) time and a problem of data redundancy as you have already uploaded the data on the server.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How to link data in my script&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;x_data = np.load(&amp;#39;/nfiles/fileone.npy&amp;#39;)
+y_data = np.load(&amp;#39;/nfiles/filetwo.npy&amp;#39;)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here, nfiles is my MOUNT point.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using Anaconda prompt and you come across the following error after running the command: "pip install -U floyd-cli": scandir could not be installed&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ conda install -c conda-forge &lt;span class="nv"&gt;scandir&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;.5
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you have any issues kindly raise an issue in the &lt;a href="https://github.com/channelCS/channelcs.github.io"&gt;GitHub&lt;/a&gt; repo.&lt;/p&gt;</summary><category term="floyd"></category></entry></feed>
