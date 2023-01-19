@@ -61,8 +61,133 @@
                         <div>
                             <h6></h6>
                             <p>
-                                This lab is designed to make sure you can load and show an image.
+                                This lab is designed to make sure you can load an image, manipulate the values, and
+                                produce some output using Python. Plenty of additional Python tutorials can be found by
+                                searching the web.
+                                This lab is to be done <strong>individually</strong>.
+                                Try to avoid using loops which dealing with large arrays (e.g., images) as much as
+                                possible. Instead try to use vectorized operations by applying a single Python command
+                                to an entire array. To get documentation for a particular Python function, visit the <a
+                                    href="https://docs.python.org/3/">Python documentation</a>.
+                                Finally, make sure you do the appropriate typecasting (i.e., <code>uint8</code> and
+                                <code>float32</code>) when working with images.
                             </p>
+                            <p>
+                                The two libraries you will work with today are Numpy and Matplotlib. Numpy is a library
+                                designed to handle arrays of numbers with many dimensions. Matplotlib is an image
+                                processing and visualization library which works with numpy arrays. <a
+                                    href="https://matplotlib.org/stable/tutorials/introductory/images.html#sphx-glr-tutorials-introductory-images-py">See
+                                    this tutorial</a> for a quick introduction on how to use both together and perform
+                                some basic operations.
+                            </p>
+                            <p>
+                                If you have any questions or if you are finished with the lab, please let the TA (Aditya
+                                Arora) know.
+                            </p>
+                            <ol>
+                                <li>
+                                    IDE
+                                </li>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        In Linux, click 'Activities' (top left of screen) and open up Jupyter Notebook.
+                                        If you have your own laptop, look at <code>Lab0</code> to launch the Jupyter
+                                        Notebook.
+                                    </li>
+                                    <li>
+                                        Create a directory <code>cvlab_dir/lab1</code> for this lab and then create a
+                                        new Python notebook in the directory. To do this, in the top right corner, click
+                                        new and create a new Python3 notebook. Jupyter notebooks consist of multiple
+                                        cells, each of which can contain python scripts, which can be run individually.
+                                        If things break (or if you get disconnected from the kernel) and you need to
+                                        restart your kernel, click `kernel - restart' and this will delete all variables
+                                        and `unrun' any cells.
+                                    </li>
+                                </ol>
+                                <li>
+                                    Input images
+                                </li>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        Find two interesting images to use. They should be colour. Save them in your
+                                        working directory.
+                                    </li>
+                                    <li>
+                                        Import matplotlib and numpy in the top cell and run it (hint: you can run a cell
+                                        by hitting shift+enter).
+                                    </li>
+                                </ol>
+                                <li>
+                                    Colour planes
+                                </li>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        Load image 1 and store it in the variable <code>img</code> and display them.
+                                    </li>
+                                    <li>
+                                        Swap the red and blue channels of image 1 (look up how to slice arrays in Python if you need help) <br/>
+                                        <strong>Output</strong>: Display new image
+                                    </li>
+                                    <li>
+                                        Create a monochrome image (call it <code>img_g</code>) by selecting the green channel of image <br/>
+                                        <strong>Output</strong>: Display new image
+                                    </li>
+                                    <li>
+                                        Create a monochrome image (call it <code>img_r</code>) by selecting the red channel of image 1 <br/>
+                                        <strong>Output</strong>: Display new image
+                                    </li>
+                                    <li>
+                                        Convert the image to grayscale <br/>
+                                        <strong>Output</strong>: Display new image
+                                    </li>
+                                </ol>
+                                <li>
+                                    Replacement of pixels
+                                </li>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        Take the square of 100 x 100 pixels located in the centre of image 1 (grayscale version) and insert them into image 2  (grayscale version). <br/>
+                                        <strong>Output</strong>: Display new image
+                                    </li>
+                                </ol>
+                                <li>
+                                    Arithmetic and geometric operations
+                                </li>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        What is the minimum and maximum of the pixel values of <code>img_g</code>? What is the mean? What is the standard deviation? How did you compute these?
+                                    </li>
+                                    <li>                      
+                                        Subtract the mean from all the pixels, then divide by the standard deviation, then multiply by 10 (if your image is zero to 255) or by 0.05 (if your image ranges from 0.0 to 1.0). Now add the mean back in. <br/>
+                                        <strong>Output</strong>: Display new image 
+                                    </li>
+                                    <li>
+                                        Shift <code>img_g</code> to the left by 2 pixels. <br/>
+                                        <strong>Output</strong>: Display new image 
+                                    </li>
+                                    <li>                    
+                                        Subtract the shifted version of <code>img_g</code> from the original. <br/>
+                                        <strong>Output</strong>: Display new image   
+                                    </li>
+                                    <li>      
+                                        Flip horizontally <code>img_g</code> from the original, i.e., flip image left-to-right. <br/>
+                                        <strong>Output</strong>: Display new image  
+                                    </li>
+                                    <li>
+                                        Change the intensities of <code>img_g</code> from the original, such that the lightest values appear dark and the darkest appear light. <br/>
+                                        <strong>Output</strong>: Display new image 
+                                    </li>
+                                </ol>
+                                <li>
+                                    Image noise
+                                </li>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        Take the original colour image 1 and start adding Gaussian noise to the pixels in each colour channel. (<strong>Hint</strong>: Create a three-channel image containing Gaussian noise.) Increase the variance of the noise until the noise is somewhat visible;  see  <code>randn()</code>. To increase the noise variance, multiply the Gaussian noise output by the standard deviation you desire. What value for the standard deviation did you use? <br/>
+                                        <strong>Output</strong>: Display new image 
+                                    </li>
+                                </ol>
+                            </ol>
 
                         </div>
 
