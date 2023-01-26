@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Computer Vision Lab</title>
+    <meta name="description" content="">
+    <meta name="author" content="channelCS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+    <script src="/theme/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/theme/bootstrap.min.css" rel="stylesheet">
+    <link href="/theme/bootstrap.min.responsive.css" rel="stylesheet">
+    <link href="/theme/local.css" rel="stylesheet">
+    <link href="/theme/pygments.css" rel="stylesheet">
+
+    <!-- So Firefox can bookmark->"abo this site" -->
+    <link href="/feeds/all.atom.xml" rel="alternate" title="channelCS" type="application/atom+xml">
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="container">
+
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+
+                <a class="brand" href="index.html">Computer Vision Lab</a>
+
+                <div class="nav-collapse">
+                    <ul class="nav">
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <div class="span9">
+                    <div class='article'>
+                        <div class="content-title">
+                            <h1>Lab 2: Understanding Convolutions through loops</h1>
+                            Thu 26 January 2023
+                            by <u>Aditya Arora</u>
+                        </div>
+                        <div>
+                            <h6></h6>
+                            <p>
+                                This lab is designed to make sure you understand how Convolutions work. We would use <code>numpy</code> and <code>for-loops</code> to manipulate the values. We would create a <code>kernel</code> and convolve it through our image to generate the output. Also, we would time this method to understand how much time it takes.
+                                This lab is to be done <strong>individually</strong>.
+                            </p>
+                            <p>
+                                Load the following <a href="https://drive.google.com/file/d/1XZBwgqSylD_hB3pMijT9Qh7dbmujY-oH/view?usp=sharing">Image</a> using Matplotlib. Typecast it to <code>float32</code>.
+                            </p>
+                                If you have any questions or if you are finished with the lab, please let the TA (Aditya
+                                Arora) know.
+                            </p>
+                            <ol>
+                                <li>
+                                    <p>
+                                        Color spaces- Color spaces are a way to represent the color channels present in the image that gives the image that particular hue. There are several different color spaces and each has its own significance.
+                                    </p>
+                                </li>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        <p>
+                                            Read an image with opencv and visualize it. What is the output. Have a look at the docs and see how to convert it in RGB space. Use opencv inbuilt functionality.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Load the image you used in lab1 that you converted to grayscale. Read the same image using opencv, convert it to RGB and visualize it. Convert the image from <strong>RGB to Grayscale</strong> using opencv function and visualize it.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Toys tend to be colourful. Load a toy image. To increase the toy-like display, boost the image saturation.  To boost the saturation, convert the image to the hue-saturation-value colour space (use opencv function), increase the saturation channel by a percentage, and convert the resulting image back to the RGB colour space (use opencv function). 
+                                        </p>
+                                    </li>
+                                </ol>
+
+                                <li>
+                                    <p>
+                                        Gaussian Blurring- Gaussian blurring is simply taking a kernel (i.e., a k x k matrix) and multiplying every image location with this kernel (i.e., performing a <em>convolution</em>). However, only some kernels will perform blurring of an image, while other kernels have different purposes.
+                                    </p>
+                                </li>
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>You can use the function to create your Gaussian Kernels.
+                                        <p class="highlight">
+                                            <pre><span>def gkern(l=5, sig=1.):
+    """
+    creates gaussian kernel with side length `l` and a sigma of `sig`
+    """
+    ax = np.linspace(-(l - 1) / 2., (l - 1) / 2., l)
+    gauss = np.exp(-0.5 * np.square(ax) / np.square(sig))
+    kernel = np.outer(gauss, gauss)
+    return kernel / np.sum(kernel)</span></pre>
+                                            </p>
+                                        
+                                    </li>
+                                    <li>
+                                        Loop through the image and convolve your kernel.<br/>
+                                        <strong>Output</strong>: Blurred image.
+                                    </li>
+                                    <li>
+                                        Add the <code>time.time()</code> before and after your code to calculate how much time it takes to process your image.
+                                    </li>
+                                </ol>
+                                <li>
+                                    <p>
+                                        Hybrid images- Hybrid images are images that change in appearance when looked at from different distances. A hybrid image is the sum of a low-pass filtered version of the one image and a high-pass filtered version of a second image. There is a free parameter, which can be tuned for each image pair, which controls how much high frequency to remove from the first image and how much low frequency to leave in the second image. This is called the "cutoff-frequency". <strong>Do not use any pre-defined functions in scipy or opencv.</strong>
+                                    </p>
+                                    <p>
+                                        In the <a href="http://cvcl.mit.edu/publications/OlivaTorralb_Hybrid_Siggraph06.pdf">paper</a> it is suggested to use two cutoff frequencies (one tuned for each image) and you are free to try that, as well. In the starter code, the cutoff frequency is controlled by changing the standard deviation (sigma) of the Gausian filter used in constructing the hybrid images. 
+                                    </p>
+                                </li>                                
+                                <ol style="list-style-type: lower-alpha;">
+                                    <li>
+                                        Download <a href="cat.jpg">Cat</a> and <a href="dog.jpg">Dog</a> images.
+                                    </li>
+                                    <li>
+                                        Make two functions <strong>low_pass</strong> and <strong>high_pass</strong>.
+                                    </li>
+                                    <li>
+                                        Pass the dog image to low_pass and cat image to high_pass.<br/>
+                                        <strong>Output</strong>: Hybrid image.
+                                    </li>
+                                </ol>
+                            </ol>
+
+                        </div>
+
+                        <hr>
+
+                        <!-- <br /> -->
+                        <footer>Hosted on Github</footer>
+                    </div>
+                </div> <!-- /container -->
+            </div>
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="/theme/bootstrap-collapse.js"></script>
+
+</body>
+
+</html>
