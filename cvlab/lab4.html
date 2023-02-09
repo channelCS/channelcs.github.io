@@ -36,7 +36,7 @@
                     <span class="icon-bar"></span>
                 </a>
 
-                <a class="brand" href="">Computer Vision Lab</a>
+                <a class="brand" href="index.html">Computer Vision Lab</a>
 
                 <div class="nav-collapse">
                     <ul class="nav">
@@ -54,20 +54,27 @@
                 <div class="span9">
                     <div class='article'>
                         <div class="content-title">
-                            <h1>Computer Vision Lab</h1>
-                            Sun 15 January 2023
+                            <h1>Lab 4: Image Filtering</h1>
+                            Thu 9 February 2023
                             by <u>Aditya Arora</u>
                         </div>
                         <div>
                             <h6></h6>
-                            <p>Here is a list of links for the lab tutorials.</p>
-                            <ol>
-                                <li><a href="lab0.html">Lab 0: Setting-up your workspace</a></li>
-                                <li><a href="lab1.html">Lab 1: Python Warm-up</a></li>
-                                <li><a href="lab2.html">Lab 2: Understanding Convolutions through loops</a></li>
-                                <li><a href="lab3.html">Lab 3: Image Metrology</a></li>
-                                <li><a href="lab4.html">Lab 4: Image Filtering</a></li>
-                            </ol>
+                            <p>
+                                The goal of this lab is to implement filtering methods for the game <em>Where's Waldo</em>. In the <a href="https://drive.google.com/drive/folders/1_laxanwakRC5ahVjbWWXO7YX0Ugqya3K?usp=sharing">drive</a>, you will find multiple high-resolution images with a hiding Waldo inside. The corresponding images of Waldo are also given (with the corresponding number, i.e., waldo2.png goes with wheres_waldo2.jpeg).
+                            </p>
+                            <p>
+                                Load the images using OpenCV. Use <code>plt.imshow(img)</code> to visualize your images.
+                            </p>
+                            <p>
+                                Using the waldoX.png image as the filter and wheres_waldoX.jpg as the image, your job is to implement the following:
+                            </p>
+                            <p>
+                                Using only OpenCV and PyTorch, implement three filtering algorithms: (i) convolution, (ii) correlation, and (iii) normalized cross correlation. Use these to find Waldo in at least one of the images. <strong>Why will only one of these work to find Waldo?</strong> 
+                            </p>
+                            <p>                                                                    
+                                As usual, let the TA know when you are done! 
+                            </p>
                         </div>
 
                         <hr>
