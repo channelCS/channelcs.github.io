@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Computer Vision Lab</title>
+    <meta name="description" content="">
+    <meta name="author" content="channelCS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+    <script src="/theme/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/theme/bootstrap.min.css" rel="stylesheet">
+    <link href="/theme/bootstrap.min.responsive.css" rel="stylesheet">
+    <link href="/theme/local.css" rel="stylesheet">
+    <link href="/theme/pygments.css" rel="stylesheet">
+
+    <!-- So Firefox can bookmark->"abo this site" -->
+    <link href="/feeds/all.atom.xml" rel="alternate" title="channelCS" type="application/atom+xml">
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="container">
+
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+
+                <a class="brand" href="index.html">Computer Vision Lab</a>
+
+                <div class="nav-collapse">
+                    <ul class="nav">
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <div class="span9">
+                    <div class='article'>
+                        <div class="content-title">
+                            <h1>Lab 5: Harris Corner Detection</h1>
+                            Sun 16 February 2023
+                            by <u>Aditya Arora</u>
+                        </div>
+                        <div>
+                            <h6></h6>
+                            <p>
+                                The goal of todays lab is to implement the Harris corner detector. Please see the 'Image_features' slide for a walkthrough of the algorithm. Given an image, the Harris corner detector returns an image of the same size where there is a 1 in all pixel locations with a corner and a 0 otherwise.
+                            </p>
+                                <strong>Your todo</strong>
+                                
+                                Your job is to make two functions: 1) <code>harris_response()</code> and 2) <code>local_max_and_thresh()</code>. These functions compute the corner response scores and perform the thresholding, respectively. Once you are finished, try your algorithm out on a few images to see if it works as expected. Use k=0.04
+                            </p>
+                            <p>
+                                The <code>harris_response</code> should
+                            </p>
+                            <p class="highlight">
+<pre><span>Compute the Harris cornerness function.
+Function does not do any normalization or nms. 
+
+Args:
+    input: input image with shape :math:`(B, C, H, W)`.
+    k: the Harris detector free parameter.
+    grads_mode: can be ``'sobel'`` for standalone use or ``'diff'`` for use on Gaussian pyramid.
+    sigmas: coefficients to be multiplied by multichannel response. Should be shape of :math:`(B)`
+    It is necessary for performing non-maxima-suppression across different scale pyramid levels.
+
+Return:
+    the response map per channel with shape :math:`(B, C, H, W)`.</span></pre>
+                            </p>
+                            <p class="highlight">
+<pre><span>1) take gradients of input using 'spatial_gradient()'
+2) blur dx and dy using 'gaussian_blur2d()'
+3) calculate the determinant and trace using dx2, dy2, and dxy
+4) compute the response map (i.e., difference between the determinant and k*trace^2)
+</span></pre>
+                            </p>
+                            <p>
+                                The <code>local_max_and_thresh</code> should
+                            </p>
+                            <p class="highlight">
+<pre><span>find the local maxima and threshold, then return the binary map of 0's and 1's where all 1's are corners</span></pre>
+                            </p>
+                            <p>
+                                If you have any questions or if you are finished with the lab, please let the TA (Aditya
+                                Arora) know.
+                            </p>
+
+                        </div>
+
+                        <hr>
+
+                        <!-- <br /> -->
+                        <footer>Hosted on Github</footer>
+                    </div>
+                </div> <!-- /container -->
+            </div>
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="/theme/bootstrap-collapse.js"></script>
+
+</body>
+
+</html>
