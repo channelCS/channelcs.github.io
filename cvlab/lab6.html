@@ -63,19 +63,22 @@
                             <p>
 
 In this lab you will implement a video stabilization algorithm to stabilize a video around a chosen point. Take a look at <a href="https://www.youtube.com/watch?v=Dd1VIeTMGQs&ab_channel=BeatsbyDre">
-this video</a>, <a href="https://twitter.com/DirkKoy/status/1248283034215907335?s=20">and this video</a> for some examples. There is a video of someone diving into a pool while doing multiple flips and spins in the `video\_frames' folder which you can use for the stabilization. Then, save the stabilized frames in the `video\_frames\_stabilized' folder. The output should look something along the lines of <a href="https://twitter.com/DirkKoy/status/1306680741754011650?s=20">and this video</a> .
-
+this video</a>, <a href="https://twitter.com/DirkKoy/status/1248283034215907335?s=20">and this video</a> for some examples. There is a video of someone diving into a pool while doing multiple flips and spins in the `video_frames' folder which you can use for the stabilization. Then, save the stabilized frames in the `video_frames_stabilized' folder. The output should look something along the lines of <a href="https://twitter.com/DirkKoy/status/1306680741754011650?s=20">and this video</a>.
+                            </p><p>
 You will need to select points in the image for this lab. To select one with your mouse, first place the following two lines at the beginning of your script: 
-
+<br/>
 <code>import matplotlib; matplotlib.use('TkAgg')</code>. Then, use the line 
-
-<code>x,y = plt.ginput(2)</code> to bring up a GUI which allows you to select an (x,y) point in the image. Your job is to calculate the transformation (i.e., translation and rotation) between the first frame and every other frame in the video. Then, apply the transformation you calculated with Koria's <a href="https://kornia.readthedocs.io/en/latest/geometry.transform.html#kornia.geometry.transform.translate">translation</a> and <a href="https://kornia.readthedocs.io/en/latest/geometry.transform.html#kornia.geometry.transform.rotate">rotation</a> functions. Once you are finished, you can visualize your stabilized video as a gif using <a href="https://ezgif.com/maker">free online software</a>.
-
+<br/>
+<code>x,y = plt.ginput(2)</code> to bring up a GUI which allows you to select an (x,y) point in the image.
+<br/>
+Your job is to calculate the transformation (i.e., translation and rotation) between the first frame and every other frame in the video. Then, apply the transformation you calculated with Koria's <a href="https://kornia.readthedocs.io/en/latest/geometry.transform.html#kornia.geometry.transform.translate">translation</a> and <a href="https://kornia.readthedocs.io/en/latest/geometry.transform.html#kornia.geometry.transform.rotate">rotation</a> functions. Once you are finished, you can visualize your stabilized video as a gif using <a href="https://ezgif.com/maker">free online software</a>.
+<br/>
 <a href="https://drive.google.com/drive/folders/1mRWsGb3Z_PJaIGu7-g-6T5fe2FT7f1eA?usp=share_link">Link to frames</a>
-
+                            </p><p>
 Some helpful hints:
-
+<br/>
 You can first start off with solely translations because it is easier, and then move onto rotations afterwards.
+<br/>
 To deal with plotting issues, start with a large black canvas (i.e., zeros) and past the transformed image onto the canvas.
 
                             </p>
