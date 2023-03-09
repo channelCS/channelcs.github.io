@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Computer Vision Lab</title>
+    <meta name="description" content="">
+    <meta name="author" content="channelCS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+    <script src="/theme/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/theme/bootstrap.min.css" rel="stylesheet">
+    <link href="/theme/bootstrap.min.responsive.css" rel="stylesheet">
+    <link href="/theme/local.css" rel="stylesheet">
+    <link href="/theme/pygments.css" rel="stylesheet">
+
+    <!-- So Firefox can bookmark->"abo this site" -->
+    <link href="/feeds/all.atom.xml" rel="alternate" title="channelCS" type="application/atom+xml">
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="container">
+
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+
+                <a class="brand" href="index.html">Computer Vision Lab</a>
+
+                <div class="nav-collapse">
+                    <ul class="nav">
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <div class="row">
+                <div class="span9">
+                    <div class='article'>
+                        <div class="content-title">
+                            <h1>Lab 6: Assigment 3 Practice Image Registration</h1>
+                            Thu 9 March 2023
+                            by <u>Aditya Arora</u>
+                        </div>
+                        <div>
+                            <h6></h6>
+                            <p>
+
+In this lab you will implement a video stabilization algorithm to stabilize a video around a chosen point. Take a look at <a href="https://www.youtube.com/watch?v=Dd1VIeTMGQs&ab_channel=BeatsbyDre">
+this video</a>, <a href="https://twitter.com/DirkKoy/status/1248283034215907335?s=20">and this video</a> for some examples. There is a video of someone diving into a pool while doing multiple flips and spins in the `video\_frames' folder which you can use for the stabilization. Then, save the stabilized frames in the `video\_frames\_stabilized' folder. The output should look something along the lines of <a href="https://twitter.com/DirkKoy/status/1306680741754011650?s=20">and this video</a> .
+
+You will need to select points in the image for this lab. To select one with your mouse, first place the following two lines at the beginning of your script: 
+
+<code>import matplotlib; matplotlib.use('TkAgg')</code>. Then, use the line 
+
+<code>x,y = plt.ginput(2)</code> to bring up a GUI which allows you to select an (x,y) point in the image. Your job is to calculate the transformation (i.e., translation and rotation) between the first frame and every other frame in the video. Then, apply the transformation you calculated with Koria's <a href="https://kornia.readthedocs.io/en/latest/geometry.transform.html#kornia.geometry.transform.translate">translation</a> and <a href="https://kornia.readthedocs.io/en/latest/geometry.transform.html#kornia.geometry.transform.rotate">rotation</a> functions. Once you are finished, you can visualize your stabilized video as a gif using <a href="https://ezgif.com/maker">free online software</a>.
+
+Some helpful hints:
+
+You can first start off with solely translations because it is easier, and then move onto rotations afterwards.
+To deal with plotting issues, start with a large black canvas (i.e., zeros) and past the transformed image onto the canvas.
+
+                            </p>
+
+                        </div>
+
+                        <hr>
+
+                        <!-- <br /> -->
+                        <footer>Hosted on Github</footer>
+                    </div>
+                </div> <!-- /container -->
+            </div>
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="/theme/bootstrap-collapse.js"></script>
+
+</body>
+
+</html>
